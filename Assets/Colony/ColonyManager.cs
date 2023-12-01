@@ -199,12 +199,12 @@ public static class ColonyManager
                 new Building() { 
                     Name = "BUILDING_CHAPEL",
                     Costs = new Dictionary<string, int> {{ "TRADEGOODS", 30 }},
-                    Effects = new Dictionary<string, float> { {"MOOD", 0.10f }}
+                    Effects = new Dictionary<string, float> { {"MOOD", 0.15f }}
                 },
                 new Building() {
                     Name = "BUILDING_GRANARY",
                     Costs = new Dictionary<string, int> {{ "TRADEGOODS", 30 }},
-                    Effects = new Dictionary<string, float> { {"FOOD", 0.10f }}
+                    Effects = new Dictionary<string, float> { {"FOOD", 0.15f }}
                 },
                 new Building() {
                     Name = "BUILDING_WORKSHOP",

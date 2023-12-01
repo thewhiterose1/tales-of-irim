@@ -71,7 +71,6 @@ public class EventUIManager : UIManager
         Description.text = GameManager.TranslationManager.GetTranslation(gameEvent.Description);
         Name.text = GameManager.CurrentDate.ToString() + ", " + GameManager.TranslationManager.GetTranslation(gameEvent.Name);
         var descriptionScroller = GetRoot().Q<ScrollView>("scroller");
-
         //Load list of options
         VisualElement optionsContainer = Options.Q<VisualElement>("unity-content-container");
         optionsContainer.Clear();
@@ -173,12 +172,6 @@ public class EventUIManager : UIManager
         }
         SetStats();
     }
-
-
-
-
-
-
     //Update scroller size
     void ForceUpdate(ScrollView view)
     {

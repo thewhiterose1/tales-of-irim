@@ -583,19 +583,6 @@
           ]
         },
         {
-          "Description": "EVENT_OPTION_2_BIRDS_OF_TRADE_1",
-          "Effects": [
-            {
-              "Type": "FLAG",
-              "FlagName": "FLAG_BIRDS_OF_TRADE_1"
-            },
-            {
-              "Type": "FLAG",
-              "FlagName": "FLAG_BIRDS_OF_TRADE_1_DRAGON_INFO"
-            }
-          ]
-        },
-        {
           "Description": "EVENT_OPTION_3_BIRDS_OF_TRADE_1",
           "Effects": [
             {
@@ -726,7 +713,7 @@
             },
             {
               "Type": "FLAG",
-              "FlagName": "HEDGEMEN_PEACE"
+              "FlagName": "FLAG_HEDGEVOY_PEACE"
             }
           ]
         }
@@ -855,7 +842,17 @@
         {
           "Type": "FLAG",
           "FlagName": "HEDGEMEN_WAR",
-          "Probability": 0.05
+          "Probability": 0.15
+        },
+        {
+          "Type": "SOLDIERS",
+          "Value": 380,
+          "Probability": 0.1
+        },
+        {
+          "Type" : "TURN",
+          "Value" : 0,
+          "Probability" : -0.1
         },
         {
           "Type": "FLAG",
@@ -1235,7 +1232,7 @@
         {
           "Type": "FLAG",
           "FlagName": "FLAG_WOODS_OF_WISDOM_MEETING_FAILED",
-          "Probability": 0.8
+          "Probability": 0.15
         },
         {
           "Type": "FLAG",
@@ -1283,11 +1280,11 @@
           "Effects": [
             {
               "Type": "FLAG",
-              "FlagName": "FLAG_WYRDTREE_MEETING_FAILED"
+              "FlagName": "FLAG_STRANGE_VISITOR"
             },
             {
               "Type": "FLAG",
-              "FlagName": "FLAG_STRANGE_VISITOR"
+              "FlagName": "FLAG_WYRDTREE_WAR"
             }
           ]
         }
@@ -1349,12 +1346,27 @@
         {
           "Type": "FLAG",
           "FlagName": "FLAG_STRANGE_VISITOR_ACCEPTED",
-          "Probability": 0.08
+          "Probability": 0.18
         },
         {
           "Type": "FLAG",
           "FlagName": "FLAG_STRANGE_VISITOR_DONE",
           "Probability": -1
+        },
+        {
+          "Type": "FLAG",
+          "FlagName": "FLAG_WYRDTREE_DONE",
+          "Probability": -1
+        },
+        {
+          "Type": "SOLDIERS",
+          "Value": 250,
+          "Probability": 0.1
+        },
+        {
+          "Type" : "TURN",
+          "Value" : 0,
+          "Probability": -0.1
         }
       ],
       "Options": [
@@ -1400,12 +1412,22 @@
         {
           "Type": "FLAG",
           "FlagName": "FLAG_WYRDTREE_WAR",
-          "Probability": 0.05
+          "Probability": 0.15
         },
         {
           "Type": "FLAG",
           "FlagName": "FLAG_WYRDTREE_DONE",
           "Probability": -1
+        },
+        {
+          "Type": "SOLDIERS",
+          "Value": 370,
+          "Probability": 0.1
+        },
+        {
+          "Type" : "TURN",
+          "Value" : 0,
+          "Probability": -0.1
         }
       ],
       "Options": [
@@ -1577,6 +1599,11 @@
           "Type": "TRADEGOODS",
           "Value": 80,
           "Probability": 1
+        },
+        {
+          "Type": "FLAG",
+          "FlagName": "FLAG_WYRDTREE_DONE",
+          "Probability": -1
         }
       ],
       "Options": [
@@ -1652,6 +1679,11 @@
           "Type": "FLAG",
           "FlagName": "HEDGEMEN_PEACE",
           "Probability": -1
+        },
+        {
+          "Type": "FLAG",
+          "FlagName": "FLAG_HEDGEVOY_PEACE",
+          "Probability": 1
         }
       ],
       "Options": [
@@ -1779,12 +1811,22 @@
         {
           "Type": "FLAG",
           "FlagName": "WICKED_WILLOW_AWAKE",
+          "Probability": 0.2
+        },
+        {
+          "Type": "SOLDIERS",
+          "Value": 420,
           "Probability": 0.1
         },
         {
           "Type": "FLAG",
           "FlagName": "WICKED_WILLOW_DEAD",
           "Probability": -1
+        },
+        {
+          "Type" : "TURN",
+          "Value" : 0,
+          "Probability": -0.1
         }
       ],
       "Options": [
@@ -1971,6 +2013,11 @@
           "Type": "FLAG",
           "FlagName": "FLAG_WYRDTREE_DONE",
           "Probability": 1
+        },
+        {
+          "Type": "SOLDIERS",
+          "Value": 520,
+          "Probability": 0.1
         }
       ],
       "Options": [

@@ -98,7 +98,7 @@ public class ArmyScreenUIManager : UIManager
                     }
 
                     if(value != 0)
-                    toolTip.text += "<color=#10870B>" + GameManager.TranslationManager.GetTranslation(cost.Key) + " + " + (cost.Value) + "</color>" + "\n";
+                    toolTip.text += "<color=#10870B>" + GameManager.TranslationManager.GetTranslation(cost.Key) + " + " + (value) + "</color>" + "\n";
                 }
                 toolTip.text = toolTip.text.TrimEnd('\n');
 

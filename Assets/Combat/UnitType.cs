@@ -20,7 +20,7 @@ public class Musketeer : UnitType
     public Musketeer()
     {
         Name = "MUSKETEER";
-        Power = 10000;
+        Power = 5;
         Upkeep = new Dictionary<string, int>()
         {
             { "FOOD", 1 },
@@ -77,7 +77,7 @@ public class Militia : UnitType
     public Militia()
     {
         Name = "MILITIA";
-        Power = 2;
+        Power = 3;
         Upkeep = new Dictionary<string, int>();
         Cost = new Dictionary<string, int>();
         IsRecruitable = false;

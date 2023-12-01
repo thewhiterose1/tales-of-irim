@@ -107,7 +107,7 @@ public class EventManager : MonoBehaviour
                         if (trigger.Value <= ColonyManager.Mood) ProbabilityPairs[gameEvent] += trigger.Probability;
                         break;
                     case "SOLDIERS":
-                        if (trigger.Value <= ColonyManager.Soldiers) ProbabilityPairs[gameEvent] += trigger.Probability;
+                        if (trigger.Value <= GameManager.Army.TotalPower()) ProbabilityPairs[gameEvent] += trigger.Probability;
                         break;
                     case "TRADEGOODS":
                         if (trigger.Value <= ColonyManager.TradeGoods) ProbabilityPairs[gameEvent] += trigger.Probability;

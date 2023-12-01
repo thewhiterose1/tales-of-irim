@@ -74,7 +74,8 @@ public class BattleManager : MonoBehaviour
         // The army is empty, deploy the drunk from the local tavern
         if (army.ArmyContents.Values.Sum() == 0)
         {
-            army.ArmyContents.Add(new Drunk(), 1);
+            var drunk = army.ArmyContents.Where(x => x.Key is Drunk).Select(x => x.Key).FirstOrDefault();
+            army.ArmyContents[drunk] = 1;
         }
         return army;
     }
@@ -151,7 +152,7 @@ public class BattleManager : MonoBehaviour
     {
         foreach (var unitCasualty in casualties)
         {
-            if (unitCasualty.Key is Militia)
+            if (unitCasualty.Key is Militia || unitCasualty.Key is Drunk)
             {
                 ColonyManager.AddPopulation(-unitCasualty.Value);
                 GameManager.Army.ArmyContents[unitCasualty.Key] = 0;
@@ -236,7 +237,8 @@ public class Army
             { new Musketeer(), 0 },
             { new Cavalry(), 0 },
             { new Cannon(), 0 },
-            { new Militia(), 0}
+            { new Militia(), 0},
+            { new Drunk(), 0}
         };
     }
 
