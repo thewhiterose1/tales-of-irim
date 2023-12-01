@@ -1,0 +1,113 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="BuildingElement" src="project://database/Assets/UI%20Templates/BuildingElement.uxml?fileID=9197481963319205126&amp;guid=f868688e76acfc44f859b6b460d4f06f&amp;type=3#BuildingElement" />
+    <ui:Template name="UnitRecruiter" src="project://database/Assets/UI%20Templates/UnitRecruiter.uxml?fileID=9197481963319205126&amp;guid=0cb211b92c3a9e84faa50d7dfffe4aa2&amp;type=3#UnitRecruiter" />
+    <Style src="project://database/Assets/StyleSheets/stylesheet.uss?fileID=7433441132597879392&amp;guid=18013c2b975e33748ba25758a033344e&amp;type=3#stylesheet" />
+    <ui:VisualElement name="background" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Colony/MainScreen/346778_empty%20parchment%20map%20on%20wooden%20table_xl-1024-v1-0.png?fileID=2800000&amp;guid=c154e4f6b0c81e9488ab2672309bf9f8&amp;type=3#346778_empty parchment map on wooden table_xl-1024-v1-0&apos;); -unity-font-definition: url(&apos;project://database/Assets/Fonts/Almendra-Regular%20SDF.asset?fileID=11400000&amp;guid=d1b74c95a7bb9ee4493073c826d3c13a&amp;type=2#Almendra-Regular SDF&apos;); font-size: 45%; background-color: rgba(0, 0, 0, 0);">
+        <ui:VisualElement name="colonyStats" style="width: 20%; height: 30%; position: absolute; left: 65%; top: 14%; font-size: 100%;">
+            <ui:VisualElement name="resourceLabels" style="flex-grow: 1; font-size: 100%; width: 50%; height: 80%; position: absolute; top: 17%; -unity-background-image-tint-color: rgb(249, 233, 233);">
+                <ui:Label tabindex="-1" text="FOOD" parse-escape-sequences="true" display-tooltip-when-elided="true" name="FoodLabel" class="town-stats-style" style="width: 100%; height: 15%; font-size: 30px; background-color: rgba(32, 32, 32, 0);" />
+                <ui:Label tabindex="-1" text="POPULATION" parse-escape-sequences="true" display-tooltip-when-elided="true" name="PopulationLabel" class="town-stats-style" style="width: 100%; height: 15%; opacity: 1; font-size: 30px;" />
+                <ui:Label tabindex="-1" text="TRADEGOODS" parse-escape-sequences="true" display-tooltip-when-elided="true" name="TradegoodsLabel" class="town-stats-style" style="width: 100%; height: 15%;" />
+                <ui:Label tabindex="-1" text="MOOD" parse-escape-sequences="true" display-tooltip-when-elided="true" name="MoodLabel" class="town-stats-style" style="width: 100%; height: 15%;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="resourceValues" style="flex-grow: 1; left: 50%; top: 17%; max-width: 30%; max-height: 100%; height: 80%; width: 20%; overflow: hidden; position: absolute;">
+                <ui:Label tabindex="-1" text="10" parse-escape-sequences="true" display-tooltip-when-elided="true" name="FoodValue" style="height: 15%; width: 100%; font-size: 30px;" />
+                <ui:Label tabindex="-1" text="10" parse-escape-sequences="true" display-tooltip-when-elided="true" name="PopulationValue" style="height: 15%; width: 100%; font-size: 30px;" />
+                <ui:Label tabindex="-1" text="10" parse-escape-sequences="true" display-tooltip-when-elided="true" name="TradeGoodsValue" style="height: 15%; width: 100%; font-size: 30px;" />
+                <ui:Label tabindex="-1" text="10" parse-escape-sequences="true" display-tooltip-when-elided="true" name="MoodValue" style="height: 15%; width: 100%; font-size: 30px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="projectedResources" style="flex-grow: 1; position: absolute; left: 70%; top: 17%; height: 80%; width: 30%;">
+                <ui:Label tabindex="-1" text="10" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ProjectedFood" class="projected-value-label" style="height: 15%; width: 100%; font-size: 30px;" />
+                <ui:Label tabindex="-1" text="10" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ProjectedPopulation" style="height: 15%; width: 100%; font-size: 30px;" />
+                <ui:Label tabindex="-1" text="10" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ProjectedTradeGoods" style="height: 15%; width: 100%; font-size: 30px;" />
+                <ui:Label tabindex="-1" text="10" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ProjectedMood" style="height: 15%; width: 100%; font-size: 30px;" />
+            </ui:VisualElement>
+            <ui:Label tabindex="-1" text="Resources" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ResourceLabel" style="-unity-text-align: upper-center; -unity-font-style: bold; font-size: 35px; width: 100%; height: 15%;" />
+        </ui:VisualElement>
+        <ui:Button text="END_TURN" parse-escape-sequences="true" display-tooltip-when-elided="true" name="EndTurnButton" style="position: absolute; top: 75%; left: 70%; height: 12%; width: 12%; background-color: rgb(220, 174, 104); border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px; border-left-color: rgb(132, 65, 3); border-right-color: rgb(132, 65, 3); border-top-color: rgb(132, 65, 3); border-bottom-color: rgb(132, 65, 3); border-top-width: 5px; border-right-width: 5px; border-bottom-width: 5px; border-left-width: 5px; font-size: 30px;" />
+        <ui:Label tabindex="-1" text="SEASON, YEAR" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Date" style="position: absolute; top: 70%; left: 70%; font-size: 30px; -unity-text-align: upper-center; width: 12%;" />
+        <ui:VisualElement name="ColonyOptions" style="flex-grow: 1; position: absolute; left: 7%; top: 20%; width: 12%; height: 50%;">
+            <ui:Button text="MAIN_BUTTON" parse-escape-sequences="true" display-tooltip-when-elided="true" name="MainButton" tooltip="The main screen" class="menu-button" style="position: relative; left: auto; top: auto; font-size: 20px; -unity-font-style: normal; height: 20%; margin-top: 2%; margin-right: 2%; margin-bottom: 2%; margin-left: 2%; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+            <ui:Button text="BUILDINGS_BUTTON" parse-escape-sequences="true" display-tooltip-when-elided="true" name="BuildingsButton" class="menu-button" style="position: relative; left: auto; top: auto; font-size: 20px; margin-top: 2%; margin-right: 2%; margin-bottom: 2%; margin-left: 2%; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+            <ui:Button text="JOBS_BUTTON" parse-escape-sequences="true" display-tooltip-when-elided="true" name="JobsButton" class="menu-button" style="position: relative; left: auto; top: auto; font-size: 20px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+            <ui:Button text="ARMY_BUTTON" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ArmyButton" enable-rich-text="true" class="menu-button" style="position: relative; left: auto; top: auto; font-size: 20px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+            <ui:Button text="HISTORIES_BUTTON" parse-escape-sequences="true" display-tooltip-when-elided="true" name="HistoryButton" class="menu-button" style="position: relative; left: auto; top: auto; font-size: 20px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="JobsContent" style="flex-grow: 1; left: 20%; top: 0; height: 100%; width: 41%; position: absolute; visibility: visible; display: flex;">
+            <ui:VisualElement name="Image" style="height: 25%; width: 100%; position: absolute; top: 11%; left: 0; background-image: url(&apos;project://database/Assets/Colony/JobsScreen/599036_16th%20century%20settlers%20farming%20the%20fields%20in%20colour_xl-1024-v1-0.png?fileID=2800000&amp;guid=1a6bb06457c92424b88d6fe4e9a28f8b&amp;type=3#599036_16th century settlers farming the fields in colour_xl-1024-v1-0&apos;); border-top-width: 15px; border-right-width: 15px; border-bottom-width: 15px; border-left-width: 15px; border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px;" />
+            <ui:VisualElement name="JobSliders" style="height: 20%; width: 100%; position: absolute; left: 0; top: 40%; font-size: 30px;">
+                <ui:SliderInt picking-mode="Ignore" label="Farmers" value="42" high-value="100" show-input-field="true" name="Farmers" style="height: auto;" />
+                <ui:SliderInt picking-mode="Ignore" label="Entertainers" value="42" high-value="100" show-input-field="true" name="Entertainers" />
+                <ui:SliderInt picking-mode="Ignore" label="Artisans" value="42" high-value="100" show-input-field="true" name="Artisans" focusable="true" />
+                <ui:SliderInt picking-mode="Ignore" label="Militia" value="42" high-value="100" show-input-field="true" name="Militia" focusable="true" />
+            </ui:VisualElement>
+            <ui:Label tabindex="-1" text="Jobs" parse-escape-sequences="true" display-tooltip-when-elided="true" name="JobLabel" style="position: absolute; top: 5%; left: 0; height: 5%; width: 100%; justify-content: flex-start; -unity-text-align: middle-center; font-size: 40px; text-overflow: clip; -unity-font-style: bold; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+            <ui:Label tabindex="-1" text="Idle Population: 10" parse-escape-sequences="true" display-tooltip-when-elided="true" name="IdlePopulation" style="position: absolute; top: 37%; left: 0; width: 100%; -unity-text-align: upper-center; -unity-font-style: bold;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="MainContent" style="flex-grow: 1; position: absolute; left: 20%; top: 0; width: 41%; height: 100%; display: none;">
+            <ui:Label tabindex="-1" text="Wargstown" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ColonyName" style="position: absolute; top: 5%; left: 0; height: 5%; width: 100%; justify-content: flex-start; -unity-text-align: middle-center; font-size: 35px; text-overflow: clip; -unity-font-style: bold; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+            <ui:VisualElement name="ColonyImage" style="flex-grow: 1; position: absolute; height: 25%; top: 11%; left: 0; width: 100%; background-image: url(&apos;project://database/Assets/Colony/Images/ColonySpring.png?fileID=2800000&amp;guid=9bbe869653859b448b2faf08babda027&amp;type=3#ColonySpring&apos;); border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px; font-size: 0;" />
+            <ui:ScrollView horizontal-scroller-visibility="Hidden" name="DescriptionScroller" style="left: 0; top: 37.5%; height: 50%;">
+                <ui:Label tabindex="-1" text="COLONY_OVERVIEW" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ColonyDescription" style="height: auto; width: 100%; position: absolute; top: 0; left: -1px; font-size: 24px; white-space: normal;" />
+            </ui:ScrollView>
+        </ui:VisualElement>
+        <ui:VisualElement name="BuildingsContent" style="flex-grow: 1; position: absolute; left: 20%; height: 100%; width: 41%; display: none; -unity-font-style: normal; top: 0; opacity: 1;">
+            <ui:Label tabindex="-1" text="Buildings" parse-escape-sequences="true" display-tooltip-when-elided="true" name="BuildingsLabel" style="-unity-text-align: upper-center; font-size: 40px; -unity-font-style: bold; margin-top: 0; top: 5%; height: 5%; position: absolute; margin-right: 0; margin-bottom: 0; margin-left: 0; width: 100%;" />
+            <ui:VisualElement name="BuildingImage" style="flex-grow: 0; height: 25%; background-image: url(&apos;project://database/Assets/Colony/BuildingScreen/249275_16th%20century%20Colonial%20houses%20with%20a%20church%20in%20the%20_xl-1024-v1-0.png?fileID=2800000&amp;guid=e4ae2bbf0833c2447b9092d32d46b1d2&amp;type=3#249275_16th century Colonial houses with a church in the _xl-1024-v1-0&apos;); border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px; width: 100%; top: 11%;" />
+            <ui:VisualElement name="ListLabels" style="flex-grow: 0; background-color: rgba(228, 110, 75, 0); height: auto; top: 36%; position: absolute; width: 100%; font-size: 100%;">
+                <ui:Label tabindex="-1" text="Name" parse-escape-sequences="true" display-tooltip-when-elided="true" name="NameLabel" style="width: 30%; height: 100%; background-image: none; font-size: 30px; -unity-text-align: upper-center; -unity-font-style: bold;" />
+                <ui:Label tabindex="-1" text="Effects" parse-escape-sequences="true" display-tooltip-when-elided="true" name="EffectsLabel" style="position: absolute; left: 30%; -unity-text-align: upper-center; width: 25%; height: 100%; font-size: 30px; -unity-font-style: bold;" />
+                <ui:Label tabindex="-1" text="Cost" parse-escape-sequences="true" display-tooltip-when-elided="true" name="BuildingCosts" style="position: absolute; left: 55%; height: 100%; width: 25%; font-size: 30px; -unity-text-align: upper-center; -unity-font-style: bold;" />
+            </ui:VisualElement>
+            <ui:ScrollView name="BuildingList" horizontal-scroller-visibility="Hidden" style="flex-grow: 1; top: 40%; position: absolute; width: 100%; height: 55%;">
+                <ui:VisualElement name="BuiltBuildings" style="flex-grow: 1;" />
+                <ui:VisualElement name="UnBuiltBuildings" style="flex-grow: 1;">
+                    <ui:Instance template="BuildingElement" name="BuildingElement" class="building-element" style="padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; color: rgb(4, 66, 3); font-size: 30px;">
+                        <AttributeOverrides element-name="BuildingCosts" text="90 Food&#10;100 Tradegoods&#10;" />
+                    </ui:Instance>
+                    <ui:Instance template="BuildingElement" name="BuildingElement" class="building-element" style="padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px;" />
+                    <ui:Instance template="BuildingElement" name="BuildingElement" class="building-element" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px;" />
+                    <ui:Instance template="BuildingElement" name="BuildingElement" class="building-element" style="padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px;" />
+                </ui:VisualElement>
+            </ui:ScrollView>
+        </ui:VisualElement>
+        <ui:VisualElement name="HistoriesContent" style="flex-grow: 1; position: absolute; left: 20%; height: 100%; width: 41%; display: none; -unity-font-style: normal; top: 0; opacity: 1;">
+            <ui:Label tabindex="-1" text="Histories" parse-escape-sequences="true" display-tooltip-when-elided="true" name="HistoriesLabel" style="-unity-text-align: upper-center; font-size: 40px; -unity-font-style: bold; margin-top: 0; top: 5%; height: 5%; position: absolute; margin-right: 0; margin-bottom: 0; margin-left: 0; width: 100%;" />
+            <ui:VisualElement name="HistoriesImage" style="flex-grow: 0; height: 25%; background-image: url(&apos;project://database/Assets/Colony/HistoriesScreen/Histories.png?fileID=2800000&amp;guid=ac51ae3c208783a449cf578dfd6cab02&amp;type=3#Histories&apos;); border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px; width: 100%; top: 11%;" />
+            <ui:ScrollView name="HistoryList" style="height: 55%; top: 15%;">
+                <ui:Label tabindex="-1" text="History innit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="HistoryText" style="white-space: normal; font-size: 30px;" />
+            </ui:ScrollView>
+        </ui:VisualElement>
+        <ui:VisualElement name="ArmyStats" style="flex-grow: 1; position: absolute; left: 65%; top: 40%; width: 20%; height: 30%;">
+            <ui:Label tabindex="-1" text="Army" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ArmyLabel" style="-unity-text-align: upper-center; -unity-font-style: bold; font-size: 35px; width: 100%; height: 15%;" />
+            <ui:VisualElement name="ArmyLabels" style="flex-grow: 1; font-size: 100%; width: 50%; height: 80%; position: absolute; top: 17%; -unity-background-image-tint-color: rgb(249, 233, 233);">
+                <ui:Label tabindex="-1" text="SOLDIERS" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SoldierLabel" class="town-stats-style" style="width: 100%; height: 15%; text-overflow: ellipsis;" />
+                <ui:Label tabindex="-1" text="MILITIA" parse-escape-sequences="true" display-tooltip-when-elided="true" name="MilitiaLabel" class="town-stats-style" style="width: 100%; height: 15%; text-overflow: ellipsis;" />
+                <ui:Label tabindex="-1" text="POWER" parse-escape-sequences="true" display-tooltip-when-elided="true" name="PowerLabel" class="town-stats-style" style="width: 100%; height: 15%; text-overflow: ellipsis; -unity-font-style: bold; position: relative; top: 15%;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="ArmyValues" style="flex-grow: 1; left: 65%; top: 17%; max-width: 30%; max-height: 100%; height: 80%; width: 20%; overflow: hidden; position: absolute;">
+                <ui:Label tabindex="-1" text="10" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SoldiersValue" style="height: 15%; width: 100%; font-size: 30px;" />
+                <ui:Label tabindex="-1" text="10" parse-escape-sequences="true" display-tooltip-when-elided="true" name="MilitiaValue" style="height: 15%; width: 100%; font-size: 30px;" />
+                <ui:Label tabindex="-1" text="10" parse-escape-sequences="true" display-tooltip-when-elided="true" name="PowerValue" style="height: 15%; width: 100%; font-size: 30px; top: 15%;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="ArmyContent" style="flex-grow: 1; left: 20%; top: 0; height: 100%; width: 41%; position: absolute; visibility: visible; display: none;">
+            <ui:VisualElement name="RecruitSoldiers" style="height: 50%; width: 100%; top: 38%; left: 0; position: absolute;">
+                <ui:Label tabindex="-1" text="Recruit Soldiers" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; font-size: 35%;" />
+                <ui:VisualElement name="UnitLabels" style="height: auto; min-height: auto; max-height: none; -unity-text-outline-color: rgba(63, 36, 3, 0); background-color: rgba(163, 74, 30, 0); border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px; border-top-width: 5px; border-right-width: 5px; border-bottom-width: 5px; border-left-width: 5px; border-left-color: rgba(45, 11, 0, 0); border-right-color: rgba(45, 11, 0, 0); border-top-color: rgba(45, 11, 0, 0); border-bottom-color: rgba(45, 11, 0, 0); width: 100%; margin-top: 0.5%; margin-right: 0.5%; margin-bottom: 0.5%; margin-left: 0.5%; justify-content: center; align-items: stretch; align-self: auto; overflow: visible; -unity-font-style: bold; font-size: 25px;">
+                    <ui:Label tabindex="-1" text="Power" parse-escape-sequences="true" display-tooltip-when-elided="true" name="UnitPower" style="position: absolute; height: auto; width: 10%; left: 35%; -unity-text-align: middle-center;" />
+                    <ui:Label tabindex="-1" text="Count" parse-escape-sequences="true" display-tooltip-when-elided="true" name="UnitCount" focusable="true" style="position: absolute; height: auto; width: 8%; left: 70%; -unity-text-align: middle-center; font-size: 25px;" />
+                    <ui:Label tabindex="-1" text="Upkeep" parse-escape-sequences="true" display-tooltip-when-elided="true" name="TotalUpkeep" style="position: relative; height: auto; width: 20%; left: 44%; -unity-text-align: middle-center;" />
+                    <ui:Label tabindex="-1" text="Name" parse-escape-sequences="true" display-tooltip-when-elided="true" name="UnitName" style="position: absolute; height: auto; width: 35%; -unity-text-align: middle-center;" />
+                </ui:VisualElement>
+                <ui:ScrollView name="UnitList" vertical-scroller-visibility="Auto" horizontal-scroller-visibility="Hidden" style="flex-grow: 1; font-size: 20px;">
+                    <ui:Instance template="UnitRecruiter" name="UnitRecruiter" style="height: 20%;" />
+                    <ui:Instance template="UnitRecruiter" name="UnitRecruiter" style="height: 20%;" />
+                    <ui:Instance template="UnitRecruiter" name="UnitRecruiter" style="height: 20%;" />
+                </ui:ScrollView>
+            </ui:VisualElement>
+            <ui:VisualElement name="Image" style="height: 25%; width: 100%; position: absolute; top: 11%; left: 0; background-image: url(&apos;project://database/Assets/Colony/JobsScreen/434792_A%2016th%20century%20colonial%20army%20training%20camp%20in%20colo_xl-1024-v1-0.png?fileID=2800000&amp;guid=870dbd016404cbe47a7c01578900da3b&amp;type=3#434792_A 16th century colonial army training camp in colo_xl-1024-v1-0&apos;); border-top-width: 15px; border-right-width: 15px; border-bottom-width: 15px; border-left-width: 15px; border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px;" />
+            <ui:Label tabindex="-1" text="Army" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ArmyLabel" enable-rich-text="true" style="position: absolute; top: 5%; left: 0; height: 5%; width: 100%; justify-content: flex-start; -unity-text-align: middle-center; font-size: 40px; text-overflow: clip; -unity-font-style: bold; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,2011 @@
+{
+  "Events": [
+    {
+      "Name": "EVENT_NAME_THE_KINGS_SAILS_PART_1",
+      "Description": "EVENT_DESCRIPTION_THE_KINGS_SAILS_PART_1",
+      "Image": "ColonyShipment",
+      "Triggers": [
+        {
+          "Type": "TURN",
+          "Probability": 0.05,
+          "Value": 0
+        },
+        {
+          "Type": "FLAG",
+          "Probability": -1,
+          "FlagName": "THE_KINGS_SAILS"
+        }
+      ],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_THE_KINGS_SAILS_PART_1",
+          "Effects": [
+            {
+              "Type": "POPULATION",
+              "Value": 10
+            },
+            {
+              "Type": "MOOD",
+              "Value": -10
+            },
+            {
+              "Type": "FLAG",
+              "FlagName": "THE_KINGS_SAILS"
+            }
+          ]
+        },
+        {
+          "Description": "EVENT_OPTION_2_THE_KINGS_SAILS_PART_1",
+          "Effects": [
+            {
+              "Type": "MOOD",
+              "Value": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_THE_KINGS_SAILS_PART_2",
+      "Description": "EVENT_DESCRIPTION_THE_KINGS_SAILS_PART_2",
+      "Image": "CriminalSteal",
+      "Triggers": [
+        {
+          "Type": "FLAG",
+          "FlagName": "THE_KINGS_SAILS",
+          "Probability": 0.15
+        },
+        {
+          "Type": "FLAG",
+          "FlagName": "THE_KINGS_SAILS_PART_2",
+          "Probability": -1
+        }
+      ],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_THE_KINGS_SAILS_PART_2",
+          "Effects": [
+            {
+              "Type": "FOOD",
+              "Value": -30
+            },
+            {
+              "Type": "TRADEGOODS",
+              "Value": -10
+            },
+            {
+              "Type": "FLAG",
+              "FlagName": "THE_KINGS_SAILS_PART_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_THE_KINGS_SAILS_PART_3",
+      "Description": "EVENT_DESCRIPTION_THE_KINGS_SAILS_PART_3",
+      "Image": "Gallows",
+      "Triggers": [
+        {
+          "Type": "FLAG",
+          "FlagName": "THE_KINGS_SAILS_PART_2",
+          "Probability": 0.15,
+          "Value": 1
+        },
+        {
+          "Type": "FLAG",
+          "FlagName": "THE_KINGS_SAILS_PART_3",
+          "Probability": -1
+        }
+      ],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_THE_KINGS_SAILS_PART_3",
+          "Effects": [
+            {
+              "Type": "MOOD",
+              "Value": 20
+            },
+            {
+              "Type": "FLAG",
+              "FlagName": "THE_KINGS_SAILS_PART_3"
+            }
+          ]
+        },
+        {
+          "Description": "EVENT_OPTION_2_THE_KINGS_SAILS_PART_3",
+          "Effects": [
+            {
+              "Type": "POPULATION",
+              "Value": 5
+            },
+            {
+              "Type": "MOOD",
+              "Value": -10
+            },
+            {
+              "Type": "FLAG",
+              "FlagName": "THE_KINGS_SAILS_PART_3"
+            }
+          ]
+        },
+        {
+          "Description": "EVENT_OPTION_4_THE_KINGS_SAILS_PART_3",
+          "Effects": [
+            {
+              "Type": "FOOD",
+              "Value": 30
+            },
+            {
+              "Type": "MOOD",
+              "Value": -10
+            },
+            {
+              "Type": "FLAG",
+              "FlagName": "THE_KINGS_SAILS_PART_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_BOUNTIFUL_HARVEST",
+      "Description": "EVENT_DESCRIPTION_BOUNTIFUL_HARVEST",
+      "Image": "Farming",
+      "Triggers": [
+        {
+          "Type": "TURN",
+          "Value": 0,
+          "Probability": 0.05
+        }
+      ],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_BOUNTIFUL_HARVEST",
+          "Effects": [
+            {
+              "Type": "FOOD",
+              "Value": 30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_BAD_HARVEST",
+      "Description": "EVENT_DESCRIPTION_BAD_HARVEST",
+      "Image": "FailedHarvest",
+      "Triggers": [
+        {
+          "Type": "TURN",
+          "Value": 0,
+          "Probability": 0.05
+        }
+      ],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_BAD_HARVEST",
+          "Effects": [
+            {
+              "Type": "FOOD",
+              "Value": -30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_INTREPID_EXPLORERS",
+      "Description": "EVENT_DESCRIPTION_INTREPID_EXPLORERS",
+      "Image": "IntrepidExplorers",
+      "Triggers": [
+        {
+          "Type": "TURN",
+          "Value": 0,
+          "Probability": 0.05
+        }
+      ],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_INTREPID_EXPLORERS",
+          "Effects": [
+            {
+              "Type": "TRADEGOODS",
+              "Value": 10
+            }
+          ]
+        },
+        {
+          "Description": "EVENT_OPTION_2_INTREPID_EXPLORERS",
+          "Effects": [
+            {
+              "Type": "MOOD",
+              "Value": 10
+            }
+          ]
+        },
+        {
+          "Description": "EVENT_OPTION_3_INTREPID_EXPLORERS",
+          "Effects": [
+            {
+              "Type": "FOOD",
+              "Value": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_COLONY_UPRISING",
+      "Description": "EVENT_DESCRIPTION_COLONY_UPRISING",
+      "Image": "ColonyUprising",
+      "Triggers": [
+        {
+          "Type": "TURN",
+          "Value": 6,
+          "Probability": 0.35
+        },
+        {
+          "Type": "MOOD",
+          "Value": 35,
+          "Probability": -1
+        }
+      ],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_COLONY_UPRISING",
+          "Effects": [
+            {
+              "Type": "MOOD",
+              "Value": 20
+            },
+            {
+              "Type": "BATTLE",
+              "Battle": {
+                "Name": "BATTLE_REBELS",
+                "Faction": "REBELS",
+                "IsAtColony": true,
+                "EnemyList": [
+                  {
+                    "Type": "REBELS",
+                    "Multiplier": 0.3
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_IMPERIAL_SUPPLIES",
+      "Description": "EVENT_DESCRIPTION_IMPERIAL_SUPPLIES",
+      "Image": "MansionInterior",
+      "Triggers": [
+        {
+          "Type": "TURN",
+          "Value": 0,
+          "Probability": 0.6
+        },
+        {
+          "Type": "FOOD",
+          "Value": 10,
+          "Probability": -1
+        },
+        {
+          "Type": "POPULATION",
+          "Value": 10,
+          "Probability": -1
+        },
+        {
+          "Type": "FLAG",
+          "FlagName": "IMPERIAL_SUPPLIES_SUPPLIES_RECEIEVED",
+          "Probability": -100
+        }
+      ],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_IMPERIAL_SUPPLIES_1",
+          "Effects": [
+            {
+              "Type": "POPULATION",
+              "Value": 10
+            },
+            {
+              "Type": "TRADEGOODS",
+              "Value": 10
+            },
+            {
+              "Type": "FOOD",
+              "Value": 10
+            },
+            {
+              "Type": "MOOD",
+              "Value": 10
+            },
+            {
+              "Type": "FLAG",
+              "FlagName": "IMPERIAL_SUPPLIES_SUPPLIES_RECEIEVED"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_MOLE_ATTACK",
+      "Description": "EVENT_DESCRIPTION_MOLE_ATTACK",
+      "Image": "GiantMole",
+      "Triggers": [
+        {
+          "Type": "TURN",
+          "Value": 0,
+          "Probability": -1
+        },
+        {
+          "Type": "TURN",
+          "Value": 6,
+          "Probability": 1
+        },
+        {
+          "Type": "FOOD",
+          "Value": 40,
+          "Probability": 0.1
+        }
+      ],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_MOLE_ATTACK",
+          "Effects": [
+            {
+              "Type": "MOOD",
+              "Value": 5
+            },
+            {
+              "Type": "BATTLE",
+              "Battle": {
+                "Name": "BATTLE_GIANT_MOLE",
+                "Faction": "EVIL",
+                "LossOutcome": {
+                  "Type": "EVENT",
+                  "Name": "EVENT_NAME_MOLE_ATTACK_LOSS"
+                },
+                "EnemyList": [
+                  {
+                    "Type": "GIANT_MOLE",
+                    "Quantity": 1
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "Description": "EVENT_OPTION_2_MOLE_ATTACK",
+          "Effects": [
+            {
+              "Type": "FOOD",
+              "Value": -40
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_MOLE_ATTACK_LOSS",
+      "Description": "EVENT_DESCRIPTION_MOLE_ATTACK_LOSS",
+      "Image": "GiantMole",
+      "Triggers": [],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_MOLE_ATTACK_LOSS",
+          "Effects": [
+            {
+              "Type": "FOOD",
+              "Value": -40
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_IMPERIAL_TRADERS",
+      "Description": "EVENT_DESCRIPTION_IMPERIAL_TRADERS",
+      "Image": "ImperialFleet",
+      "Triggers": [
+        {
+          "Type": "TURN",
+          "Value": 3,
+          "Probability": 0.05
+        },
+        {
+          "Type": "FLAG",
+          "FlagName": "IMPERIAL_SHIPMENTS",
+          "Probability": 0.05
+        }
+      ],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_IMPERIAL_TRADERS",
+          "Effects": [
+            {
+              "Type": "POPULATION",
+              "Value": 5
+            },
+            {
+              "Type": "TRADEGOODS",
+              "Value": -5
+            }
+          ]
+        },
+        {
+          "Description": "EVENT_OPTION_2_IMPERIAL_TRADERS",
+          "Effects": [
+            {
+              "Type": "FOOD",
+              "Value": 20
+            },
+            {
+              "Type": "TRADEGOODS",
+              "Value": -5
+            }
+          ]
+        },
+        {
+          "Description": "EVENT_OPTION_3_IMPERIAL_TRADERS",
+          "Effects": []
+        }
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_OVER_THE_HEDGE_1",
+      "Description": "EVENT_DESCRIPTION_OVER_THE_HEDGE_1",
+      "Image": "HedgemenCute",
+      "AudioCue": "REST",
+      "Triggers": [
+        {
+          "Type": "FLAG",
+          "FlagName": "FLAG_BIRDS_OF_TRADE_2_DONE",
+          "Probability": 0.10
+        },
+        {
+          "Type": "TURN",
+          "Value": 0,
+          "Probability": -1
+        },
+        {
+          "Type": "TURN",
+          "Value": 10,
+          "Probability": 1
+        },
+        {
+          "Type": "FOOD",
+          "Value": 0,
+          "Probability": -0.5
+        },
+        {
+          "Type": "FOOD",
+          "Value": 20,
+          "Probability": 0.5
+        },
+        {
+          "Type": "FLAG",
+          "FlagName": "FLAG_OVER_THE_HEDGE",
+          "Probability": -1
+        }
+      ],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_OVER_THE_HEDGE_1",
+          "Effects": [
+            {
+              "Type": "FOOD",
+              "Value": -20
+            },
+            {
+              "Type": "FLAG",
+              "FlagName": "FLAG_OVER_THE_HEDGE"
+            }
+          ]
+        },
+        {
+          "Description": "EVENT_OPTION_2_OVER_THE_HEDGE_2",
+          "Effects": [
+            {
+              "Type": "FOOD",
+              "Value": 50
+            },
+            {
+              "Type": "TRADEGOODS",
+              "Value": 25
+            },
+            {
+              "Type": "FLAG",
+              "FlagName": "FLAG_OVER_THE_HEDGE"
+            },
+            {
+              "Type": "FLAG",
+              "FlagName": "FLAG_OVER_THE_HEDGE_WAR"
+            },
+            {
+              "Type": "BATTLE",
+              "Battle": {
+                "Name": "BATTLE_OVER_THE_HEDGE_1",
+                "Faction": "HEDGEMEN",
+                "EnemyList": [
+                  {
+                    "Type": "HEDGEMEN_INFANTRY",
+                    "Quantity": 2
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_BIRDS_OF_TRADE_1",
+      "Description": "EVENT_DESCRIPTION_BIRDS_OF_TRADE_1",
+      "Image": "BirdPeople1",
+      "AudioCue": "REST",
+      "Triggers": [
+        {
+          "Type": "TURN",
+          "Value": 0,
+          "Probability": 0.1
+        },
+        {
+          "Type": "FLAG",
+          "FlagName": "FLAG_BIRDS_OF_TRADE_1",
+          "Probability": -1
+        }
+      ],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_BIRDS_OF_TRADE_1",
+          "Effects": [
+            {
+              "Type": "TRADEGOODS",
+              "Value": 5
+            },
+            {
+              "Type": "FOOD",
+              "Value": 5
+            },
+            {
+              "Type": "FLAG",
+              "FlagName": "FLAG_BIRDS_OF_TRADE_1_TRADED"
+            },
+            {
+              "Type": "FLAG",
+              "FlagName": "FLAG_BIRDS_OF_TRADE_1"
+            }
+          ]
+        },
+        {
+          "Description": "EVENT_OPTION_2_BIRDS_OF_TRADE_1",
+          "Effects": [
+            {
+              "Type": "FLAG",
+              "FlagName": "FLAG_BIRDS_OF_TRADE_1"
+            },
+            {
+              "Type": "FLAG",
+              "FlagName": "FLAG_BIRDS_OF_TRADE_1_DRAGON_INFO"
+            }
+          ]
+        },
+        {
+          "Description": "EVENT_OPTION_3_BIRDS_OF_TRADE_1",
+          "Effects": [
+            {
+              "Type": "FLAG",
+              "FlagName": "FLAG_BIRDS_OF_TRADE_1"
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_BIRDS_OF_TRADE_2",
+      "Description": "EVENT_DESCRIPTION_BIRDS_OF_TRADE_2",
+      "Image": "BirdPeople2",
+      "AudioCue": "REST",
+      "Triggers": [
+        {
+          "Type": "FLAG",
+          "FlagName": "FLAG_BIRDS_OF_TRADE_1_TRADED",
+          "Probability": 0.05
+        },
+        {
+          "Type": "FLAG",
+          "FlagName": "FLAG_BIRDS_OF_TRADE_1_DRAGON_INFO",
+          "Probability": 0.1
+        },
+        {
+          "Type": "FLAG",
+          "FlagName": "FLAG_BIRDS_OF_TRADE_2_NO_TRADE",
+          "Probability": -0.45
+        },
+        {
+          "Type": "FLAG",
+          "FlagName": "FLAG_BIRDS_OF_TRADE_2_DONE",
+          "Probability": -1
+        }
+      ],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_BIRDS_OF_TRADE_2",
+          "Effects": [
+            {
+              "Type": "TRADEGOODS",
+              "Value": -5
+            },
+            {
+              "Type": "FOOD",
+              "Value": -10
+            },
+            {
+              "Type": "FLAG",
+              "FlagName": "FLAG_BIRDS_OF_TRADE_2_DONE"
+            }
+          ]
+        },
+        {
+          "Description": "EVENT_OPTION_2_BIRDS_OF_TRADE_2",
+          "Effects": [
+            {
+              "Type": "MOOD",
+              "Value": -10
+            },
+            {
+              "Type": "FLAG",
+              "FlagName": "FLAG_BIRDS_OF_TRADE_2_DONE"
+            }
+          ]
+        },
+        {
+          "Description": "EVENT_OPTION_3_BIRDS_OF_TRADE_2",
+          "Effects": [
+            {
+              "Type": "FLAG",
+              "FlagName": "FLAG_BIRDS_OF_TRADE_2_NO_TRADE"
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_HEDGEVOY_ARRIVES",
+      "Description": "EVENT_DESCRIPTION_HEDGEVOY_ARRIVES",
+      "Image": "AngryHedgehog",
+      "AudioCue": "SUSPENSEFUL",
+      "Triggers": [
+        {
+          "Type": "FLAG",
+          "FlagName": "FLAG_OVER_THE_HEDGE_WAR",
+          "Probability": 0.10
+        },
+        {
+          "Type": "FLAG",
+          "FlagName": "HEDGEMEN_PEACE",
+          "Probability": -1
+        },
+        {
+          "Type": "FLAG",
+          "FlagName": "HEDGEMEN_WAR",
+          "Probability": -1
+        }
+      ],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_HEDGEVOY_ARRIVES",
+          "Effects": [
+            {
+              "Type": "MOOD",
+              "Value": 10
+            },
+            {
+              "Type": "FLAG",
+              "FlagName": "HEDGEMEN_WAR"
+            }
+          ]
+        },
+        {
+          "Description": "EVENT_OPTION_2_HEDGEVOY_ARRIVES",
+          "Effects": [
+            {
+              "Type": "FOOD",
+              "Value": -100
+            },
+            {
+              "Type": "TRADEGOODS",
+              "Value": -50
+            },
+            {
+              "Type": "FLAG",
+              "FlagName": "HEDGEMEN_PEACE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_HEDGEMEN_SIEGE",
+      "Description": "EVENT_DESCRIPTION_HEDGEMEN_SIEGE",
+      "Image": "HedgehogKnights",
+      "AudioCue": "SUSPENSEFUL",
+      "Triggers": [
+        {
+          "Type": "FLAG",
+          "FlagName": "HEDGEMEN_WAR",
+          "Probability": 0.05
+        },
+        {
+          "Type": "FLAG",
+          "FlagName": "HEDGEMEN_DEAD",
+          "Probability": -1
+        }
+      ],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_HEDGEMEN_SIEGE",
+          "Effects": [
+            {
+              "Type": "BATTLE",
+              "Battle": {
+                "Name": "BATTLE_HEDGEMEN_SIEGE",
+                "Faction": "HEDGEMEN",
+                "IsAtColony": true,
+                "EnemyList": [
+                  {
+                    "Type": "HEDGEMEN_INFANTRY",
+                    "Multiplier": 0.3
+                  },
+                  {
+                    "Type": "HEDGEMEN_KNIGHTS",
+                    "Multiplier": 0.1
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_BIRDMEN_AMBUSH",
+      "Description": "EVENT_DESCRIPTION_BIRDMEN_AMBUSH",
+      "Image": "BirdCamp",
+      "IsAtColony": false,
+      "Triggers": [
+        {
+          "Type": "FLAG",
+          "FlagName": "FLAG_BIRDS_OF_TRADE_1",
+          "Probability": 0.10
+        },
+        {
+          "Type": "FLAG",
+          "FlagName": "FLAG_BIRDS_OF_TRADE_1_TRADED",
+          "Probability": -1
+        },
+        {
+          "Type": "FLAG",
+          "FlagName": "FLAG_BIRDS_OF_TRADE_1_DRAGON_INFO",
+          "Probability": -1
+        },
+        {
+          "Type": "FLAG",
+          "FlagName": "FLAG_BIRDS_OF_TRADE_2_NO_TRADE",
+          "Probability": 1.1
+        },
+        {
+          "Type": "FLAG",
+          "FlagName": "FLAG_BIRDS_OF_TRADE_2_DONE",
+          "Probability": -1
+        },
+        {
+          "Type": "TURN",
+          "Value": 0,
+          "Probability": -0.5
+        },
+        {
+          "Type": "TURN",
+          "Value": 8,
+          "Probability": 0.5
+        }
+      ],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_BIRDMEN_AMBUSH",
+          "Effects": [
+            {
+              "Type": "BATTLE",
+              "Battle": {
+                "Name": "BATTLE_BIRDMEN_AMBUSH",
+                "Faction": "EVIL",
+                "EnemyList": [
+                  {
+                    "Type": "BIRDMAN",
+                    "Quantity": 2
+                  }
+                ]
+              }
+            },
+            {
+              "Type": "FLAG",
+              "FlagName": "FLAG_BIRDS_OF_TRADE_2_DONE"
+            }
+          ]
+        },
+        {
+          "Description": "EVENT_OPTION_2_BIRDMEN_AMBUSH",
+          "Effects": []
+        }
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_HEDGEMEN_THRONECITY_SIEGE",
+      "Description": "EVENT_DESCRIPTION_HEDGEMEN_THRONECITY_SIEGE",
+      "Image": "WarCouncil",
+      "AudioCue": "SUSPENSEFUL",
+      "Triggers": [
+        {
+          "Type": "FLAG",
+          "FlagName": "HEDGEMEN_WAR",
+          "Probability": 0.05
+        },
+        {
+          "Type": "FLAG",
+          "FlagName": "HEDGEMEN_DEAD",
+          "Probability": -1
+        },
+        {
+          "Type": "FLAG",
+          "FlagName": "FLAG_HEDGEMEN_DONE",
+          "Probability": -1
+        }
+      ],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_THRONECITY_SIEGE",
+          "Effects": []
+        },
+        {
+          "Description": "EVENT_OPTION_2_THRONECITY_SIEGE",
+          "Effects": [
+            {
+              "Type": "BATTLE",
+              "Battle": {
+                "Name": "BATTLE_HEDGEMEN_THRONECITY",
+                "Faction": "HEDGEMEN",
+                "WinOutcome": {
+                  "Type": "EVENT",
+                  "Name": "EVENT_NAME_HEDGEMEN_LAST_HIGH_KING"
+                },
+                "EnemyList": [
+                  {
+                    "Type": "HEDGEMEN_INFANTRY",
+                    "Quantity": 80
+                  },
+                  {
+                    "Type": "HEDGEMEN_KNIGHTS",
+                    "Quantity": 20
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_HEDGEMEN_LAST_HIGH_KING",
+      "Description": "EVENT_DESCRIPTION_HEDGEMEN_LAST_HIGH_KING",
+      "Image": "HighKingHyber",
+      "Triggers": [],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_HEDGEMEN_LAST_HIGH_KING",
+          "Effects": [
+            {
+              "Type": "MOOD",
+              "Value": 10
+            },
+            {
+              "Type": "FLAG",
+              "FlagName": "FLAG_HEDGEMEN_DONE"
+            },
+            {
+              "Type": "FLAG",
+              "FlagName": "HEDGEMEN_DEAD"
+            }
+          ]
+        },
+        {
+          "Description": "EVENT_OPTION_2_HEDGEMEN_LAST_HIGH_KING",
+          "Effects": [
+            {
+              "Type": "MOOD",
+              "Value": 10
+            },
+            {
+              "Type": "FLAG",
+              "FlagName": "FLAG_HEDGEMEN_DONE"
+            },
+            {
+              "Type": "FLAG",
+              "FlagName": "HEDGEMEN_DEAD"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_CORSAIR_ATTACK",
+      "Description": "EVENT_DESCRIPTION_CORSAIR_ATTACK",
+      "Image": "HumanCorsairs",
+      "Triggers": [
+        {
+          "Type": "TURN",
+          "Value": 0,
+          "Probability": -1
+        },
+        {
+          "Type": "TURN",
+          "Value": 6,
+          "Probability": 1
+        },
+        {
+          "Type": "TRADEGOODS",
+          "Value": 50,
+          "Probability": 0.07
+        }
+      ],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_CORSAIR_ATTACK",
+          "Effects": [
+            {
+              "Type": "TRADEGOODS",
+              "Value": -50
+            }
+          ]
+        },
+        {
+          "Description": "EVENT_OPTION_2_CORSAIR_ATTACK",
+          "Effects": [
+            {
+              "Type": "MOOD",
+              "Value": 5
+            },
+            {
+              "Type": "BATTLE",
+              "Battle": {
+                "Name": "BATTLE_CORSAIR_RAID",
+                "Faction": "EVIL",
+                "LossOutcome": {
+                  "Type": "EVENT",
+                  "Name": "EVENT_NAME_CORSAIR_ATTACK_LOSE"
+                },
+                "EnemyList": [
+                  {
+                    "Type": "CORSAIR",
+                    "Multiplier": 0.3
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_CORSAIR_ATTACK_LOSE",
+      "Description": "EVENT_DESCRIPTION_CORSAIR_ATTACK_LOSE",
+      "Image": "CaptainSalazar",
+      "Triggers": [],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_CORSAIR_ATTACK_LOSE",
+          "Effects": [
+            {
+              "Type": "TRADEGOODS",
+              "Value": -50
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_WOODS_OF_WISDOM",
+      "Description": "EVENT_DESCRIPTION_WOODS_OF_WISDOM",
+      "Image": "Placeholder",
+      "AudioCue": "SUSPENSEFUL",
+      "Triggers": [
+        {
+          "Type": "FLAG",
+          "FlagName": "FLAG_BIRDS_OF_TRADE_2_DONE",
+          "Probability": 0.1
+        },
+        {
+          "Type": "TURN",
+          "Value": 0,
+          "Probability": -1.1
+        },
+        {
+          "Type": "TURN",
+          "Value": 15,
+          "Probability": 1.1
+        },
+        {
+          "Type": "FLAG",
+          "FlagName": "WOODS_OF_WISDOM_MEET",
+          "Probability": -1
+        },
+        {
+          "Type": "FLAG",
+          "FlagName": "WOODS_OF_WISDOM_IMPOSTOR",
+          "Probability": -1
+        }
+      ],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_WOODS_OF_WISDOM",
+          "Effects": [
+            {
+              "Type": "FLAG",
+              "FlagName": "WOODS_OF_WISDOM_MEET"
+            }
+          ]
+        },
+        {
+          "Description": "EVENT_OPTION_2_WOODS_OF_WISDOM",
+          "Effects": [
+            {
+              "Type": "FLAG",
+              "FlagName": "WOODS_OF_WISDOM_IMPOSTOR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_WYRDTREE_MEETING",
+      "Description": "EVENT_DESCRIPTION_WYRDTREE_MEETING",
+      "Image": "WyrdTreeMeeting",
+      "Triggers": [
+        {
+          "Type": "FLAG",
+          "FlagName": "WOODS_OF_WISDOM_MEET",
+          "Probability": 1
+        },
+        {
+          "Type": "FLAG",
+          "FlagName": "FLAG_WOODS_OF_WISDOM_MEETING_FAILED",
+          "Probability": -1
+        },
+        {
+          "Type": "FLAG",
+          "FlagName": "FLAG_WOODS_OF_WISDOM_MEETING_SUCCESS",
+          "Probability": -1
+        }
+      ],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_WYRDTREE_MEETING",
+          "Effects": [
+            {
+              "Type": "EVENT",
+              "EventName": "EVENT_NAME_WYRDTREE_MEETING_FAILED"
+            }
+          ]
+        },
+        {
+          "Description": "EVENT_OPTION_2_WYRDTREE_MEETING",
+          "Effects": [
+            {
+              "Type": "EVENT",
+              "EventName": "EVENT_NAME_SECOND_QUESTION"
+            }
+          ]
+        },
+        {
+          "Description": "EVENT_OPTION_3_WYRDTREE_MEETING",
+          "Effects": [
+            {
+              "Type": "EVENT",
+              "EventName": "EVENT_NAME_WYRDTREE_MEETING_FAILED"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_FAILED_NEGOTIATION",
+      "Description": "EVENT_DESCRIPTION_FAILED_NEGOTIATION",
+      "Image": "WyrdTreeImpostor",
+      "Triggers": [
+        {
+          "Type": "FLAG",
+          "FlagName": "WOODS_OF_WISDOM_IMPOSTOR",
+          "Probability": 1
+        },
+        {
+          "Type": "FLAG",
+          "FlagName": "FLAG_WOODS_OF_WISDOM_MEETING_FAILED",
+          "Probability": -1
+        }
+      ],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_FAILED_NEGOTIATION",
+          "Effects": [
+            {
+              "Type": "FLAG",
+              "FlagName": "FLAG_WOODS_OF_WISDOM_MEETING_FAILED"
+            }
+          ]
+        },
+        {
+          "Description": "EVENT_OPTION_2_FAILED_NEGOTIATION",
+          "Effects": [
+            {
+              "Type": "FLAG",
+              "FlagName": "FLAG_WOODS_OF_WISDOM_MEETING_FAILED"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_SECOND_QUESTION",
+      "Description": "EVENT_DESCRIPTION_SECOND_QUESTION",
+      "Image": "WyrdTreeMeeting",
+      "Triggers": [
+      ],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_SECOND_QUESTION",
+          "Effects": [
+            {
+              "Type": "EVENT",
+              "EventName": "EVENT_NAME_WYRDTREE_MEETING_FAILED"
+            }
+          ]
+        },
+        {
+          "Description": "EVENT_OPTION_2_SECOND_QUESTION",
+          "Effects": [
+            {
+              "Type": "EVENT",
+              "EventName": "EVENT_NAME_WYRDTREE_PROPOSAL"
+            }
+          ]
+        },
+        {
+          "Description": "EVENT_OPTION_3_SECOND_QUESTION",
+          "Effects": [
+            {
+              "Type": "EVENT",
+              "EventName": "EVENT_NAME_WYRDTREE_MEETING_FAILED"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_WYRDTREE_MEETING_FAILED",
+      "Description": "EVENT_DESCRIPTION_WYRDTREE_MEETING_FAILED",
+      "Image": "WyrdTreeMeetFailed",
+      "Triggers": [
+      ],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_WYRDTREE_MEETING_FAILED",
+          "Effects": [
+            {
+              "Type": "FLAG",
+              "FlagName": "FLAG_WYRDTREE_WAR"
+            },
+            {
+              "Type": "FLAG",
+              "FlagName": "FLAG_WOODS_OF_WISDOM_MEETING_FAILED"
+            }
+          ]
+        },
+        {
+          "Description": "EVENT_OPTION_2_WYRDTREE MEETING_FAILED",
+          "Effects": [
+            {
+              "Type": "FLAG",
+              "FlagName": "FLAG_WOODS_OF_WISDOM_MEETING_FAILED"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_A_STRANGE_VISITOR",
+      "Description": "EVENT_DESCRIPTION_A_STRANGE_VISITOR",
+      "Image": "StrangeVisitor",
+      "Triggers": [
+        {
+          "Type": "FLAG",
+          "FlagName": "FLAG_WOODS_OF_WISDOM_MEETING_FAILED",
+          "Probability": 0.8
+        },
+        {
+          "Type": "FLAG",
+          "FlagName": "FLAG_STRANGE_VISITOR",
+          "Probability": -1
+        }
+      ],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_A_STRANGE_VISITOR",
+          "Effects": [
+            {
+              "Type": "FLAG",
+              "FlagName": "FLAG_STRANGE_VISITOR"
+            },
+            {
+              "Type": "POPULATION",
+              "Value": -5
+            },
+            {
+              "Type": "FLAG",
+              "FlagName": "FLAG_STRANGE_VISITOR_ACCEPTED"
+            }
+          ]
+        },
+        {
+          "Description": "EVENT_OPTION_2_A_STRANGE_VISITOR",
+          "Effects": [
+            {
+              "Type": "FLAG",
+              "FlagName": "FLAG_STRANGE_VISITOR_ACCEPTED"
+            },
+            {
+              "Type": "POPULATION",
+              "Value": -5
+            },
+            {
+              "Type": "FLAG",
+              "FlagName": "FLAG_STRANGE_VISITOR"
+            }
+          ]
+        },
+        {
+          "Description": "EVENT_OPTION_3_A_STRANGE_VISITOR",
+          "Effects": [
+            {
+              "Type": "FLAG",
+              "FlagName": "FLAG_WYRDTREE_MEETING_FAILED"
+            },
+            {
+              "Type": "FLAG",
+              "FlagName": "FLAG_STRANGE_VISITOR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_WYRDTREE_PROPOSAL",
+      "Description": "EVENT_DESCRIPTION_WYRDTREE_PROPOSAL",
+      "Image": "WyrdTreeMeeting",
+      "Triggers": [
+      ],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_WYRDTREE_PROPOSAL",
+          "Effects": [
+            {
+              "Type": "EVENT",
+              "EventName": "EVENT_NAME_WYRDTREE_DRAGON_INFO"
+            },
+            {
+              "Type": "TRADEGOODS",
+              "Value": -80
+            },
+            {
+              "Type": "FLAG",
+              "FlagName": "FLAG_WOODS_OF_WISDOM_MEETING_SUCCESS"
+            }
+          ]
+        },
+        {
+          "Description": "EVENT_OPTION_2_WYTRDTREE_PROPOSAL",
+          "Effects": [
+            {
+              "Type": "FLAG",
+              "FlagName": "FLAG_WOODS_OF_WISDOM_MEETING_SUCCESS"
+            },
+            {
+              "Type": "FLAG",
+              "FlagName": "FLAG_WYRDTREE_PAYMENT_LATER"
+            }
+          ]
+        },
+        {
+          "Description": "EVENT_OPTION_3_WYRDTREE_PROPOSAL",
+          "Effects": [
+            {
+              "Type": "EVENT",
+              "FlagName": "EVENT_NAME_WYRDTREE_MEETING_FAILED"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_UNMISSABLE_OPPERTUNITY",
+      "Description": "EVENT_DESCRIPTION_UNMISSABLE_OPPERTUNITY",
+      "Image": "StrangeVisitor",
+      "Triggers": [
+        {
+          "Type": "FLAG",
+          "FlagName": "FLAG_STRANGE_VISITOR_ACCEPTED",
+          "Probability": 0.08
+        },
+        {
+          "Type": "FLAG",
+          "FlagName": "FLAG_STRANGE_VISITOR_DONE",
+          "Probability": -1
+        }
+      ],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_UNMISSABLE_OPPERTUNITY",
+          "Effects": [
+            {
+              "Type": "BATTLE",
+              "Battle": {
+                "Name": "BATTLE_WYRDTREE_ASSAULT",
+                "Faction": "EVIL",
+                "WinOutcome": {
+                  "Type": "EVENT",
+                  "Name": "EVENT_NAME_CONSUMING_THE_WYRDTREES"
+                },
+                "EnemyList": [
+                  {
+                    "Type": "TREEMAN",
+                    "Quantity": 20
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "Description": "EVENT_OPTION_2_UNMISSABLE_OPPERTUNITY",
+          "Effects": [
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_WYRDWOOD_ASSAULT",
+      "Description": "EVENT_DESCRIPTION_WYRDWOOD_ASSAULT",
+      "Image": "WarCouncil",
+      "Triggers": [
+        {
+          "Type": "FLAG",
+          "FlagName": "FLAG_STRANGE_VISITOR_ACCEPTED",
+          "Probability": -1
+        },
+        {
+          "Type": "FLAG",
+          "FlagName": "FLAG_WYRDTREE_WAR",
+          "Probability": 0.05
+        },
+        {
+          "Type": "FLAG",
+          "FlagName": "FLAG_WYRDTREE_DONE",
+          "Probability": -1
+        }
+      ],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_WYRDTREE_ASSAULT",
+          "Effects": [
+            {
+              "Type": "BATTLE",
+              "Battle": {
+                "Name": "BATTLE_WYRDTREE_ASSAULT",
+                "Faction": "EVIL",
+                "WinOutcome": {
+                  "Type": "EVENT",
+                  "Name": "EVENT_NAME_WYRDTREE_ASSAULT_SUCCESS"
+                },
+                "EnemyList": [
+                  {
+                    "Type": "TREEMAN",
+                    "Quantity": 35
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "Description": "EVENT_OPTION_2_WYRDTREE_ASSAULT",
+          "Effects": [
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_WYRDTREE_ASSAULT_SUCCESS",
+      "Description": "EVENT_DESCRIPTION_WYRDTREE_ASSAULT_SUCCESS",
+      "Image": "WyrdWoodAssault",
+      "Triggers": [
+      ],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_WYRDTREE_ASSAULT_SUCCESS",
+          "Effects": [
+            {
+              "Type": "FLAG",
+              "FlagName": "FLAG_WYRDTREE_DONE"
+            },
+            {
+              "Type": "TRADEGOODS",
+              "Value": 10
+            }
+          ]
+        },
+        {
+          "Description": "EVENT_OPTION_2_WYRDTREE_ASSAULT_SUCCESS",
+          "Effects": [
+            {
+              "Type": "MOOD",
+              "Value": 20
+            },
+            {
+              "Type": "FLAG",
+              "FlagName": "FLAG_WYRDTREE_DONE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_CONSUMING_THE_WYRDTREES",
+      "Description": "EVENT_DESCRIPTION_CONSUMING_THE_WYRDTREES",
+      "Image": "TreeDemon",
+      "Triggers": [
+      ],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_CONSUMING_THE_WYRDTREES",
+          "Effects": [
+            {
+              "Type": "FLAG",
+              "FlagName": "FLAG_WYRDTREE_DONE"
+            },
+            {
+              "Type": "POPULATION",
+              "Value": -10
+            }
+          ]
+        },
+        {
+          "Description": "EVENT_OPTION_2_CONSUMING_THE_WYRDTREES",
+          "Effects": [
+            {
+              "Type": "FLAG",
+              "FlagName": "FLAG_WYRDTREE_DONE"
+            },
+            {
+              "Type": "BATTLE",
+              "Battle": {
+                "Name": "BATTLE_WYRDTREE_ASSAULT",
+                "Faction": "EVIL",
+                "EnemyList": [
+                  {
+                    "Type": "TREEDEMON",
+                    "Quantity": 1
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_FOREST_AMBUSH",
+      "Description": "EVENT_DESCRIPTION_FOREST_AMBUSH",
+      "Image": "WoodAmbush",
+      "Triggers": [
+        {
+          "Type": "FLAG",
+          "FlagName": "FLAG_WYRDTREE_WAR",
+          "Probability": 0.05
+        },
+        {
+          "Type": "FLAG",
+          "FlagName": "FLAG_WYRDTREE_DONE",
+          "Probability": -1
+        }
+      ],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_FOREST_AMBUSH",
+          "Effects": [
+            {
+              "Type": "BATTLE",
+              "Battle": {
+                "Name": "BATTLE_WYRDTREE_ASSAULT",
+                "Faction": "EVIL",
+                "EnemyList": [
+                  {
+                    "Type": "TREEMAN",
+                    "Quantity": 4
+                  }
+                ]
+              }
+            },
+            {
+              "Type": "POPULATION",
+              "Value": -5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_WYRDWOOD_PAYMENT",
+      "Description": "EVENT_DESCRIPTION_WYRDWOOD_PAYMENT",
+      "Image": "WyrdTreeMeeting",
+      "Triggers": [
+        {
+          "Type": "FLAG",
+          "FlagName": "FLAG_WYRDTREE_PAYMENT_LATER",
+          "Probability": 0.15
+        },
+        {
+          "Type": "TRADEGOODS",
+          "Value": 0,
+          "Probability": -1
+        },
+        {
+          "Type": "TRADEGOODS",
+          "Value": 80,
+          "Probability": 1
+        }
+      ],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_WYRDWOOD_PAYMENT",
+          "Effects": [
+            {
+              "Type": "EVENT",
+              "EventName": "EVENT_NAME_WYRDTREE_DRAGON_INFO"
+            },
+            {
+              "Type": "TRADEGOODS",
+              "Value": -80
+            }
+          ]
+        },
+        {
+          "Description": "EVENT_OPTION_2_WYRDWOOD_PAYMENT",
+          "Effects": [
+          ]
+        },
+        {
+          "Description": "EVENT_OPTION_3_WYRDWOOD_PAYMENT",
+          "Effects": [
+            {
+              "Type": "FLAG",
+              "FlagName": "FLAG_WOODS_OF_WISDOM_MEETING_FAILED"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_WYRDTREE_DRAGON_INFO",
+      "Description": "EVENT_DESCRIPTION_DRAGON_INFO",
+      "Image": "WyrdTreeMeeting",
+      "Triggers": [
+      ],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_DRAGON_INFO",
+          "Effects": [
+            {
+              "Type": "FLAG",
+              "FlagName": "FLAG_WYRDTREE_DONE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_HIGH_KING_HYBER",
+      "Description": "EVENT_DESCRIPTION_HIGH_KING_HYBER",
+      "Image": "HedgemenThrone",
+      "AudioCue": "REST",
+      "Triggers": [
+        {
+          "Type": "FLAG",
+          "FlagName": "FLAG_OVER_THE_HEDGE",
+          "Probability": 0.1
+        },
+        {
+          "Type": "FLAG",
+          "FlagName": "FLAG_OVER_THE_HEDGE_WAR",
+          "Probability": -1
+        },
+        {
+          "Type": "FLAG",
+          "FlagName": "HEDGEMEN_WAR",
+          "Probability": -1
+        },
+        {
+          "Type": "FLAG",
+          "FlagName": "HEDGEMEN_PEACE",
+          "Probability": -1
+        }
+      ],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_HIGH_KING_HYBER",
+          "Effects": [
+            {
+              "Type": "FLAG",
+              "FlagName": "HEDGEMEN_WAR"
+            }
+          ]
+        },
+        {
+          "Description": "EVENT_OPTION_2_HIGH_KING_HYBER",
+          "Effects": [
+            {
+              "Type": "FLAG",
+              "FlagName": "HEDGEMEN_PEACE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_WICKED_WILLOW_AWAKENS",
+      "Description": "EVENT_DESCRIPTION_WICKED_WILLOW_AWAKENS",
+      "Image": "WickedWillow",
+      "AudioCue": "SUSPENSEFUL",
+      "Triggers": [
+        {
+          "Type": "FLAG",
+          "FlagName": "HEDGEMEN_PEACE",
+          "Probability": 0.1
+        },
+        {
+          "Type": "FLAG",
+          "FlagName": "WICKED_WILLOW_AWAKE",
+          "Probability": -1
+        }
+      ],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_WICKED_WILLOW_AWAKENS",
+          "Effects": [
+            {
+              "Type": "FLAG",
+              "FlagName": "WICKED_WILLOW_AWAKE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_SKELETON_ATTACK",
+      "Description": "EVENT_DESCRIPTION_SKELETON_ATTACK",
+      "Image": "SkeletonAttack",
+      "AudioCue": "SUSPENSEFUL",
+      "Triggers": [
+        {
+          "Type": "FLAG",
+          "FlagName": "WICKED_WILLOW_AWAKE",
+          "Probability": 0.1
+        },
+        {
+          "Type": "FLAG",
+          "FlagName": "WICKED_WILLOW_DEAD",
+          "Probability": -1
+        }
+      ],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_SKELETON_ATTACK",
+          "Effects": [
+            {
+              "Type": "BATTLE",
+              "Battle": {
+                "Name": "BATTLE_SKELETON_ASSAULT",
+                "Faction": "EVIL",
+                "IsAtColony": true,
+                "EnemyList": [
+                  {
+                    "Type": "SKELETONS",
+                    "Multiplier": 0.8
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_PETITIONERS_ANGRY",
+      "Description": "EVENT_DESCRIPTION_PETITIONERS_ANGRY",
+      "Image": "AngryPetitioners",
+      "Triggers": [
+        {
+          "Type": "MOOD",
+          "Probability": 0.10,
+          "Value": 0
+        },
+        {
+          "Type": "MOOD",
+          "Probability": -0.10,
+          "Value": 50
+        }
+      ],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_PETITIONERS_ANGRY",
+          "Effects": []
+        },
+        {
+          "Description": "EVENT_OPTION_2_PETITIONERS_ANGRY",
+          "Effects": []
+        }
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_WICKED_WILLOW_SIEGE",
+      "Description": "EVENT_DESCRIPTION_WICKED_WILLOW_SIEGE",
+      "Image": "WarCouncil",
+      "AudioCue": "SUSPENSEFUL",
+      "Triggers": [
+        {
+          "Type": "FLAG",
+          "FlagName": "WICKED_WILLOW_AWAKE",
+          "Probability": 0.1
+        },
+        {
+          "Type": "FLAG",
+          "FlagName": "WICKED_WILLOW_DEAD",
+          "Probability": -1
+        }
+      ],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_WICKED_WILLOW_SIEGE",
+          "Effects": [
+            {
+              "Type": "BATTLE",
+              "Battle": {
+                "Name": "BATTLE_WICKED_WALLOW",
+                "Faction": "EVIL",
+                "WinOutcome": {
+                  "Type": "EVENT",
+                  "Name": "EVENT_NAME_WICKED_WALLOW_DEAD"
+                },
+                "EnemyList": [
+                  {
+                    "Type": "SKELETONS",
+                    "Quantity": 400
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "Description": "EVENT_OPTION_2_WICKED_WILLOW_SIEGE",
+          "Effects": []
+        }
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_WICKED_WALLOW_DEAD",
+      "Description": "EVENT_DESCRIPTION_WICKED_WALLOW_DEAD",
+      "Image": "HighKingHyber",
+      "AudioCue": "HEROIC",
+      "Triggers": [],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_WICKED_WALLOW_DEAD",
+          "Effects": [
+            {
+              "Type": "FLAG",
+              "FlagName": "FLAG_HEDGEMEN_DONE"
+            },
+            {
+              "Type": "FLAG",
+              "FlagName": "WICKED_WILLOW_DEAD"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_HEDGEMAN_ROMANCE",
+      "Description": "EVENT_DESCRIPTION_HEDGEMAN_ROMANCE",
+      "Image": "HedgemanRomance",
+      "Triggers": [
+        {
+          "Type": "FLAG",
+          "Probability": 0.10,
+          "FlagName": "HEDGEMEN_PEACE"
+        },
+        {
+          "Type": "FLAG",
+          "Probability": -2,
+          "FlagName": "HEDGEMEN_ROMANCE"
+        }
+      ],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_HEDGEMAN_ROMANCE",
+          "Effects": [
+            {
+              "Type": "FLAG",
+              "FlagName": "HEDGEMEN_ROMANCE"
+            },
+            {
+              "Type": "POPULATION",
+              "Value": -1
+            },
+            {
+              "Type": "MOOD",
+              "Value": 5
+            }
+          ]
+        },
+        {
+          "Description": "EVENT_OPTION_2_HEDGEMAN_ROMANCE",
+          "Effects": [
+            {
+              "Type": "FLAG",
+              "FlagName": "HEDGEMEN_ROMANCE"
+            },
+            {
+              "Type": "MOOD",
+              "Value": -5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_DRAGON_DEFEAT",
+      "Description": "EVENT_DESCRIPTION_DRAGON_DEFEAT",
+      "Image": "DragonDefeat",
+      "Triggers": [
+      ],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_DRAGON_DEFEAT",
+          "Effects": [
+            {
+              "Type": "GAMEOVER"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_DRAGON_VICTORY",
+      "Description": "EVENT_DESCRIPTION_DRAGON_VICTORY",
+      "Image": "DragonVictory",
+      "AudioCue": "HEROIC",
+      "Triggers": [
+        {
+          "Type": "FLAG",
+          "FlagName": "GAME_WON",
+          "Probability": 0
+        }
+      ],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_DRAGON_VICTORY",
+          "Effects": [
+            {
+              "Type": "FLAG",
+              "FlagName": "GAME_WON"
+            }
+          ]
+        },
+        {
+          "Description": "EVENT_OPTION_2_DRAGON_VICTORY",
+          "Effects": [
+            {
+              "Type": "FLAG",
+              "FlagName": "GAME_WON"
+            }
+          ]
+        },
+        {
+          "Description": "EVENT_OPTION_3_DRAGON_VICTORY",
+          "Effects": [
+            {
+              "Type": "FLAG",
+              "FlagName": "GAME_WON"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "EVENT_NAME_DRAGON_BATTLE",
+      "Description": "EVENT_DESCRIPTION_DRAGON_BATTLE",
+      "Image": "DragonBattle",
+      "AudioCue": "HEROIC",
+      "Triggers": [
+        {
+          "Type": "TURN",
+          "Value": 0,
+          "Probability": -2.9
+        },
+        {
+          "Type": "FLAG",
+          "FlagName": "FLAG_HEDGEMEN_DONE",
+          "Probability": 1
+        },
+        {
+          "Type": "FLAG",
+          "FlagName": "FLAG_BIRDS_OF_TRADE_2_DONE",
+          "Probability": 1
+        },
+        {
+          "Type": "FLAG",
+          "FlagName": "FLAG_WYRDTREE_DONE",
+          "Probability": 1
+        }
+      ],
+      "Options": [
+        {
+          "Description": "EVENT_OPTION_1_DRAGON_BATTLE",
+          "Effects": [
+            {
+              "Type": "BATTLE",
+              "Battle": {
+                "Name": "BATTLE_DRAGON",
+                "Faction": "EVIL",
+                "WinOutcome": {
+                  "Type": "EVENT",
+                  "Name": "EVENT_NAME_DRAGON_VICTORY"
+                },
+                "LossOutcome": {
+                  "Type": "EVENT",
+                  "Name": "EVENT_NAME_DRAGON_DEFEAT"
+                },
+                "EnemyList": [
+                  {
+                    "Type": "DRAGON",
+                    "Quantity": 1
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "Description": "EVENT_OPTION_2_DRAGON_BATTLE",
+          "Effects": [
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1044 @@
+{
+  "Translations": [
+    {
+      "Key": "FOOD",
+      "Value": "Food"
+    },
+    {
+      "Key": "POPULATION",
+      "Value": "Population"
+    },
+    {
+      "Key": "SOLDIERS",
+      "Value": "Soldiers"
+    },
+    {
+      "Key": "ENDTURN_BUTTON",
+      "Value": "End Turn"
+    },
+    {
+      "Key": "BUILDING_PLANTATION",
+      "Value": "Plantation"
+    },
+    {
+      "Key": "MOOD",
+      "Value": "Mood"
+    },
+    {
+      "Key": "TRADEGOODS",
+      "Value": "Tradegoods"
+    },
+    {
+      "Key": "BUILDINGS_BUTTON",
+      "Value": "Buildings"
+    },
+    {
+      "Key": "ARMY_BUTTON",
+      "Value": "Army"
+    },
+    {
+      "Key": "JOBS_BUTTON",
+      "Value": "Jobs"
+    },
+    {
+      "Key": "MAIN_BUTTON",
+      "Value": "Overview"
+    },
+    {
+      "Key": "RESOURCES_LABEL",
+      "Value": "Resources"
+    },
+    {
+      "Key": "EVENT_NAME_THE_KINGS_SAILS_PART_1",
+      "Value": "Imperial Justice"
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_THE_KINGS_SAILS_PART_1",
+      "Value": "With the ravages of the war the Imperial Dominion has found having people sat around in the prison system is an affront to the goals of the Emperor.\n\n To that end, using them as cannonfodder on the battlefields or dispatching them to a colony like ours gives them chance for redemption.\n\nDo we accept this latest set of arrivals? So far away from home we cannot be certain we can trust them."
+    },
+    {
+      "Key": "EVENT_OPTION_1_THE_KINGS_SAILS_PART_1",
+      "Value": "We welcome them."
+    },
+    {
+      "Key": "EVENT_OPTION_2_THE_KINGS_SAILS_PART_1",
+      "Value": "Send them away."
+    },
+    {
+      "Key": "EVENT_NAME_THE_KINGS_SAILS_PART_2",
+      "Value": "No Redemption for the Wicked"
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_THE_KINGS_SAILS_PART_2",
+      "Value": "As feared the criminal scum we received from the Imperial Dominion have proven unworthy of redemption.\n\n They have stolen some Irim trinkets and food, fleeing into the surrounding wilderness."
+    },
+    {
+      "Key": "EVENT_OPTION_1_THE_KINGS_SAILS_PART_2",
+      "Value": "Our friends at court will hear of this."
+    },
+    {
+      "Key": "EVENT_NAME_THE_KINGS_SAILS_PART_3",
+      "Value": "Pragmatism, or Justice?"
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_THE_KINGS_SAILS_PART_3",
+      "Value": "In no surprise to anyone, the criminal scum from before have reappeared at the gates of our colony.\n\nNormally the gallows would be in order, but these are trying times, do we allow them to return and serve Zygerios again?"
+    },
+    {
+      "Key": "EVENT_OPTION_1_THE_KINGS_SAILS_PART_3",
+      "Value": "They must stand trial for their crimes, hang them."
+    },
+    {
+      "Key": "EVENT_OPTION_2_THE_KINGS_SAILS_PART_3",
+      "Value": "Take them in."
+    },
+    {
+      "Key": "EVENT_OPTION_4_THE_KINGS_SAILS_PART_3",
+      "Value": "Eat them."
+    },
+    {
+      "Key": "EVENT_NAME_BOUNTIFUL_HARVEST",
+      "Value": "Bountiful Harvest"
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_BOUNTIFUL_HARVEST",
+      "Value": "As the sun reached its zenith in the cloudless sky, signaling the culmination of a season's labor, a wave of accomplishment swept through the settlement. The fields, once a patchwork of carefully sown seeds, now swayed with an abundance of golden crops, ready for harvest. Villagers bustled with activity, their laughter echoing across the fields as they gathered the fruits of their labor. The unmistakable aroma of ripe produce filled the air, and a collective sense of satisfaction permeated the community."
+    },
+    {
+      "Key": "EVENT_OPTION_1_BOUNTIFUL_HARVEST",
+      "Value": "Let us fill the granary."
+    },
+    {
+      "Key": "EVENT_NAME_INTREPID_EXPLORERS",
+      "Value": "Intrepid Explorers"
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_INTREPID_EXPLORERS",
+      "Value": "Good news Governor. Our explorers have managed to find a forest filled with a variety of valuable goods native to Irim. The bark of the trees is made out of an almost indestructible wood which our settlers could use to build their houses. \n\n When they ventured deeper into the forest they found a variety of delicious and filling fruits ripe for the taking. Further on were the most beautiful flowers they had ever seen. What should our scouts focus on bringing back?"
+    },
+    {
+      "Key": "EVENT_OPTION_1_INTREPID_EXPLORERS",
+      "Value": "Bring the wood back for our houses."
+    },
+    {
+      "Key": "EVENT_OPTION_3_INTREPID_EXPLORERS",
+      "Value": "Gather as many fruits as you can."
+    },
+    {
+      "Key": "EVENT_OPTION_2_INTREPID_EXPLORERS",
+      "Value": "Those flowers will look beautiful on the market square."
+    },
+    {
+      "Key": "EVENT_NAME_BAD_HARVEST",
+      "Value": "Bad Harvest"
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_BAD_HARVEST",
+      "Value": "In the wake of an unforeseen and devastating disease, the once-thriving fields that sustained our settlement have succumbed to ruin. The very lifeblood of our community, our crops, now stand as withered husks, their once-vibrant colors replaced by the somber hues of decay. The air, once filled with the promise of a bountiful harvest, now carries the weight of despair as the crops lie ravaged by an insidious force beyond our control. The farmland, once a symbol of abundance, is transformed into a solemn testament to the fragility of our existence. The implications of this unexpected malady reverberate through our community, casting a shadow over our livelihoods and presenting us with an unprecedented challenge as we grapple with the stark reality of a failed harvest.      "
+    },
+    {
+      "Key": "EVENT_OPTION_1_BAD_HARVEST",
+      "Value": "Let us hope we have enough food left."
+    },
+    {
+      "Key": "COLONY_NO_HISTORY",
+      "Value": "Alas, this colony has no history to speak of."
+    },
+    {
+      "Key": "HISTORY_BUTTON",
+      "Value": "Histories"
+    },
+    {
+      "Key": "BUILDING_CHAPEL",
+      "Value": "Chapel"
+    },
+    {
+      "Key": "BUILDING_GRANARY",
+      "Value": "Granary"
+    },
+    {
+      "Key": "BUILDING_WORKSHOP",
+      "Value": "Workshop"
+    },
+    {
+      "Key": "BUILDING_APOTHECARY",
+      "Value": "Apothecary"
+    },
+    {
+      "Key": "EVENT_NAME_COLONY_UPRISING",
+      "Value": "Colonial Uprising"
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_COLONY_UPRISING",
+      "Value": "You awake from your slumber to an orange glow coming from your window. Going to it, you see down the street a mob torching the settlement chanting: \n\n\"Death to the Governor, death to Emperor Zygerios!\"\n\n There can be no doubt - this is open rebellion. Times are hard but these traitors would bring about the total annihilation of us all. They must be stopped or our colony, and the Imperial Dominion are doomed."
+    },
+    {
+      "Key": "EVENT_OPTION_1_COLONY_UPRISING",
+      "Value": "I am the colony."
+    },
+    {
+      "Key": "ATTACK_POWER",
+      "Value": "Total Attack Power"
+    },
+    {
+      "Key": "ATTACK_BUTTON",
+      "Value": "Attack"
+    },
+    {
+      "Key": "STRENGTH",
+      "Value": "Troop Count"
+    },
+    {
+      "Key": "TOTAL_POWER",
+      "Value": "Total Power"
+    },
+    {
+      "Key": "REBELS",
+      "Value": "Rebel Scum"
+    },
+    {
+      "Key": "ENEMY_FORCES",
+      "Value": "You are facing the following <b><color=red>enemy forces</color></b>"
+    },
+    {
+      "Key": "FRIENDLY_FORCES",
+      "Value": "You have the following <b><color=blue>friendly forces</color></b>"
+    },
+    {
+      "Key": "MILITIA",
+      "Value": "Militiamen"
+    },
+    {
+      "Key": "CANNON",
+      "Value": "Imperial Grand Battery"
+    },
+    {
+      "Key": "CAVALRY",
+      "Value": "Imperial Riders"
+    },
+    {
+      "Key": "MUSKETEER",
+      "Value": "Imperial Free Shooters"
+    },
+    {
+      "Key": "BATTLE_REBELS",
+      "Value": "The Rebellion"
+    },
+    {
+      "Key": "VICTORY",
+      "Value": "Victory"
+    },
+    {
+      "Key": "DRUNK",
+      "Value": "Belligerent Drunk"
+    },
+    {
+      "Key": "DEFEAT",
+      "Value": "Defeat"
+    },
+    {
+      "Key": "WILL_START_BATTLE",
+      "Value": "This will start a battle."
+    },
+    {
+      "Key": "IDLE_POPULATION",
+      "Value": "Idle Population"
+    },
+    {
+      "Key": "EVENT_NAME_IMPERIAL_SUPPLIES",
+      "Value": "The Concerns of an Empire"
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_IMPERIAL_SUPPLIES",
+      "Value": "A letter has arrived all the way from the Imperial Dominion. The letter itself bears the golden seal of Emperor Zygerios himself. As you open it you find the following message \n\n \"My loyal governor I do not write to you with joy in my heart. Word of the dire straights of your colonial expedition to Irim has made its way back to the royal court to much concern. Remember the sanctity of your purpose governor, for we all depend on you. Alongside this letter are a consignment of supplies and settlers for the colony. Do not fail me, do not fail yourself, and do not fail the Imperial Dominion\""
+    },
+    {
+      "Key": "EVENT_OPTION_1_IMPERIAL_SUPPLIES_1",
+      "Value": "Failure is not an option."
+    },
+    {
+      "Key": "COLONY_DESCRIPTION_INITIAL",
+      "Value": "After a long and turbulent voyage we have arrived on the continent of Irim, having chosen a suitable location for settlement. As hoped we have arrived in Spring, but we must prepare for the coming winter."
+    },
+    {
+      "Key": "COLONY_DESCRIPTION_THREAT_LOW",
+      "Value": "As we recently arrived, we should not expect any trouble from the creatures alluded to in the Tales of Irim for a few seasons. So we should not concern ourselves with military matters for the time being."
+    },
+    {
+      "Key": "COLONY_DESCRIPTION_ECONOMIC_INITIAL",
+      "Value": "In these early days, we should prioritise our settlers on basic production such as food. Perhaps working towards some simple buildings through the production of tradegoods. We can expect periodic help from the Imperial Dominion but we are a long way from home, establishing a harbour will encourage more merchants to maken the journey."
+    },
+    {
+      "Key": "COLONY_DESCRIPTION_STORY_INITIAL",
+      "Value": "If we meet any locals we should take every chance we get to find out more about these Dragons and their Scales. Emperor Zygerios is depending on us."
+    },
+    {
+      "Key": "COLONY_DESCRIPTION_SPRING",
+      "Value": "It is now Spring. "
+    },
+    {
+      "Key": "COLONY_DESCRIPTION_SUMMER",
+      "Value": "It is now Summer. "
+    },
+    {
+      "Key": "COLONY_DESCRIPTION_AUTUMN",
+      "Value": "It is now Autumn, we should ensure we have enough food for the upcoming winter."
+    },
+    {
+      "Key": "COLONY_DESCRIPTION_WINTER",
+      "Value": "It is now Winter, our food production will be reduced."
+    },
+    {
+      "Key": "GAME_INTRODUCTION",
+      "Value": "You stand in the royal court of the Imperial Dominion, once the most powerful empire in the known world. At the far end, atop the imperial throne, you see Emperor Zygerios. Time has not been kind. A near century of warfare and decay has taken its toll on the ailing Emperor, troubles you are all too familiar with given your recent arrival from the eastern marches. Having seen your entrance, Emperor Zygerios beckons you to approach.\n\n\"Governor, at last. You were summoned some time ago, I feared the worst given the situation in the east... now word reaches us that the northern port city of Etenor has too come under siege.\"\n\n\"Yes my emperor, we came across refugees on the road here.\"\n\n\"Let me be candid, govneror, this empire is assailed from all directions. The Imperial Council believes defeat is assured. Tell me, have you heard of the Tales of Irim?\"\n\n\"Hmph - I recall fantastical claims even compared to the aberrations arrayed against us.\"\n\n\"The legend speaks of the continent of Irim, a contintent of mystery and magic where Dragons rule the sky. The text says that these Dragons possessed Scales that could nullify even the strongest magic. Wielding the power of these Scales might be the only hope the Imperial Dominion has for survival. \n\n This is why I called you here. You must go to this Irim, find the Dragons that live there and bring me their Scales. Go forth, gather your expedition and do not return untill you have succeeded. The fate of the Imperial Dominion is in your hands now \""
+    },
+    {
+      "Key": "COLONY_DESCRIPTION_FAMINE",
+      "Value": "Famine is sweeping through the colony."
+    },
+    {
+      "Key": "COLONY_DESCRIPTION_LOWTRADEGOODS",
+      "Value": "We have very little tradegoods production."
+    },
+    {
+      "Key": "COLONY_DESCRIPTION_REVOLTRISK",
+      "Value": "The people of the colony are becoming restless, a general revolt is a distinct possibility."
+    },
+    {
+      "Key": "COLONY_DESCRIPTION_LOWPOPULATION",
+      "Value": "We have a dangerously low population."
+    },
+    {
+      "Key": "COLONY_DESCRIPTION_NEGATIVETRADEGOODS",
+      "Value": "Our tradegoods are dangerously low. We can no longer pay our troops and they will start deserting if we do not pay them quickly."
+    },
+    {
+      "Key": "EVENT_NAME_MOLE_ATTACK",
+      "Value": "Giant Mole Attack"
+    },
+    {
+      "Key": "EVENT_NAME_MOLE_ATTACK_LOSS",
+      "Value": "Giant Mole Victorious"
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_MOLE_ATTACK_LOSS",
+      "Value": "As the militia scatters in terror, the Giant Mole resumes its munching on the crops and animals satisfied it will no longer be disturbed."
+    },
+    {
+      "Key": "EVENT_OPTION_1_MOLE_ATTACK_LOSS",
+      "Value": "Lets just... leave it alone."
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_MOLE_ATTACK",
+      "Value": "You hear screams from the fields as a farmer comes running into the town. \n\n\"Zygerios help us, there's a giant monster attacking the farmers in the fields and eating all our crops and animals. We have to do something or the harvest will be lost!\"\n\n We always knew there were monsterous creatures in Irim, and your fears are confirmed when a giant mole-like creature burrows out in the middle of our wheat fields. The farmers are in a state of panic, what do you do?"
+    },
+    {
+      "Key": "EVENT_OPTION_1_MOLE_ATTACK",
+      "Value": "Militia, to arms!"
+    },
+    {
+      "Key": "EVENT_OPTION_2_MOLE_ATTACK",
+      "Value": "Forget it, it will go away eventually."
+    },
+    {
+      "Key": "GIANT_MOLE",
+      "Value": "Giant Mole"
+    },
+    {
+      "Key": "BATTLE_GIANT_MOLE",
+      "Value": "Giant Mole Attack"
+    },
+    {
+      "Key": "BUILDING_HARBOUR",
+      "Value": "Harbour"
+    },
+    {
+      "Key": "IMPERIAL_SHIPMENTS",
+      "Value": "Imperial Fleet Visits"
+    },
+    {
+      "Key": "BUILDING_BARRACKS",
+      "Value": "Training Field"
+    },
+    {
+      "Key": "ARMY_POWER",
+      "Value": "Army Power"
+    },
+    {
+      "Key": "EVENT_NAME_IMPERIAL_TRADERS",
+      "Value": "Imperial Merchant Fleet"
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_IMPERIAL_TRADERS",
+      "Value": "A welcome sight to be sure, the imperial merchant fleet headed by Patrician Zorgos has been sighted approaching the colony. Its grand nature a constant reminder that even in these dark days, the Imperial Dominion is a force to be reckoned with. As the ships dock, you see Patrician Zorgos and his entourage head straight towards you.\n\n \"Oh by the Emperor my dear Governor how delightful it is to see you, tell me what wonders of Irim have you prepared for barter this time?\""
+    },
+    {
+      "Key": "EVENT_OPTION_1_IMPERIAL_TRADERS",
+      "Value": "Zorgos... have you any indentured servants with you?"
+    },
+    {
+      "Key": "EVENT_OPTION_2_IMPERIAL_TRADERS",
+      "Value": "Zorgos... have you any food supplies with you?"
+    },
+    {
+      "Key": "EVENT_OPTION_3_IMPERIAL_TRADERS",
+      "Value": "Zorgos... not this time."
+    },
+    {
+      "Key": "EVENT_NAME_OVER_THE_HEDGE_1",
+      "Value": "Over the Hedge"
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_OVER_THE_HEDGE_1",
+      "Value": "You sit heavy in your chair contemplating the gravity of your mission, when all of a sudden one of your advisors bursts through the doors:\n\n\"Governor, I bring fascinating news. Our scouting parties have encountered a farming community of sentient hedgehogs... Well, they call themselves Hedgemen\"\n\n\"Hedgemen... yes these creatures are mentioned in the Tales of Irim, only a farming community you say?\"\n\n\"Yes Governor. Our scouts described them as small and timid creatures. No match for us surely. What should we do?\""
+    },
+    {
+      "Key": "EVENT_OPTION_1_OVER_THE_HEDGE_1",
+      "Value": "We should tread with care, send envoys."
+    },
+    {
+      "Key": "EVENT_OPTION_2_OVER_THE_HEDGE_2",
+      "Value": "This land has enough abominations, destroy them."
+    },
+    {
+      "Key": "HEDGEMEN_INFANTRY",
+      "Value": "Hedgelings"
+    },
+    {
+      "Key": "HEDGEMEN_CAVALRY",
+      "Value": "Knight of the Hedge"
+    },
+    {
+      "Key": "BATTLE_OVER_THE_HEDGE_1",
+      "Value": "Hedgefarm Raid"
+    },
+    {
+      "Key": "EVENT_NAME_HEDGEVOY_ARRIVES",
+      "Value": "Arrival of the Hedgevoy"
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_HEDGEVOY_ARRIVES",
+      "Value": "In the middle of a meeting of the colonial council, a small furious looking hedgehog bursts into the room.\n\n\"Foul humans, I have come here on behalf of High King Hyber of the Hedgemen. Your attack on our Hedgefarm is outrageous. You think us weak and feeble? Well, we are delivering an ultimatum to your pitiful colony. Deliver to us twice what you stole, or face war.\"\n\nThe red faced Hedgemen impatiently awaits your reply."
+    },
+    {
+      "Key": "EVENT_OPTION_1_HEDGEVOY_ARRIVES",
+      "Value": "How did it get in here? Shoo it away."
+    },
+    {
+      "Key": "EVENT_OPTION_2_HEDGEVOY_ARRIVES",
+      "Value": "Forgive us Hedgevoy, please take this compensation and our envoys."
+    },
+    {
+      "Key": "EVENT_NAME_HEDGEMEN_SIEGE",
+      "Value": "Attack of the Hedgehogs"
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_HEDGEMEN_SIEGE",
+      "Value": "Our past actions with the Hedgemen have resulted in a state of open war. This time High King Hyber has the upper hand, and the Hedgemen army has launched an all out attack on our colony.The army is ready to deploy and we await your orders, Governor. \n\n For the Imperial Dominion, for Emperor Zygerios, hold your ground!"
+    },
+    {
+      "Key": "EVENT_OPTION_1_HEDGEMEN_SIEGE",
+      "Value": "We will not falter."
+    },
+    {
+      "Key": "HEDGEMEN_KNIGHTS",
+      "Value": "Knights of Hyber's Hedge"
+    },
+    {
+      "Key": "BATTLE_HEDGEMEN_SIEGE",
+      "Value": "Colony Under Siege"
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_BIRDS_OF_TRADE_1",
+      "Value": "As you finish your breakfast a guard runs into the room and tells you the most extroardinary news. A group of remarkable creatures just landed on our doorstep looking to trade. Birdmen capable of talking have asked to be let in to trade with our settlers. \n\n As you walk outside you can see the shock and whispers of the settlers around you. Worried and scared at how such strange creatures could exist on this continent. When you see the Birdmen yourself they greet you kindly and show no sign of hostility. \n\n They carry many goods that could be useful for the colony and could provide useful information concerning the Dragons you have been tasked to find. However many of the settlers will dislike trading with such strange creatures. "
+    },
+    {
+      "Key": "EVENT_NAME_BIRDS_OF_TRADE_1",
+      "Value": "Birds of Trade"
+    },
+    {
+      "Key": "EVENT_OPTION_1_BIRDS_OF_TRADE_1",
+      "Value": "Let them trade with our settlers."
+    },
+    {
+      "Key": "EVENT_OPTION_2_BIRDS_OF_TRADE_1",
+      "Value": "Ask them for information about the Dragons."
+    },
+    {
+      "Key": "EVENT_OPTION_3_BIRDS_OF_TRADE_1",
+      "Value": "Refuse these abominations entry to our town."
+    },
+    {
+      "Key": "EVENT_NAME_BIRDS_OF_TRADE_2",
+      "Value": "The Bird's Proposal"
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_BIRDS_OF_TRADE_2",
+      "Value": "The watchman at the gate has informed you that another group of Birdmen has arrived with an offer of trade with our settlement. Having heard of our search for the Dragons they have come with a proposal that according to them benefits us both. \n\n In exchange for the right to permanently trade in our settlement they are willing to share local maps and any sightings of Dragons. These maps would be of great benefit to exploring the local area as well as finding any sign of the Dragons. \n\n Whilst the bird creatures don't seem to harbour any ill will towards us they are still foreign creatures and many settlers are still distrustful of the birds.  "
+    },
+    {
+      "Key": "EVENT_OPTION_1_BIRDS_OF_TRADE_2",
+      "Value": "Offer them a one time payment instead."
+    },
+    {
+      "Key": "EVENT_OPTION_2_BIRDS_OF_TRADE_2",
+      "Value": "Accept their proposal."
+    },
+    {
+      "Key": "EVENT_OPTION_3_BIRDS_OF_TRADE_2",
+      "Value": "Refuse their deal"
+    },
+    {
+      "Key": "COLONY_DESCRIPTION_HEDGEMEN_WAR",
+      "Value": "We are in open warfare with the Hedgemen and should be prepared for battle at any point."
+    },
+    {
+      "Key": "EVENT_NAME_HEDGEMEN_THRONECITY_SIEGE",
+      "Value": "War Council Meeting"
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_HEDGEMEN_THRONECITY_SIEGE",
+      "Value": "As you enter the war council settles down.\n\n\"Governor, we believe we have found an opportunity to bring the war against the Hedgemen to an end. With the current state of the war, we have them on the defensive and the thronecity of High King Hyber is within our reach. We believe a force of approximately 400 strength will be sufficient.\""
+    },
+    {
+      "Key": "EVENT_OPTION_1_THRONECITY_SIEGE",
+      "Value": "Now is not the time."
+    },
+    {
+      "Key": "EVENT_OPTION_2_THRONECITY_SIEGE",
+      "Value": "Agreed, issue the orders."
+    },
+    {
+      "Key": "BATTLE_HEDGEMEN_THRONECITY",
+      "Value": "Siege of Hyber's Thronecity"
+    },
+    {
+      "Key": "EVENT_NAME_BIRDMEN_AMBUSH",
+      "Value": "Birdmen Ambush"
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_BIRDMEN_AMBUSH",
+      "Value": "Late in the night word reaches you that scouts have found the encampment of the two Birdmen we refused earlier. According to your scouts they are ill prerpared for combat and could easily be surprised. \n\n The knowledge these creatures have could be very useful to our endeavour to find Dragons. If we captured one we could surely convince it to tell us. One way or the other...."
+    },
+    {
+      "Key": "BIRDMAN",
+      "Value": "Birdmen"
+    },
+    {
+      "Key": "EVENT_OPTION_1_BIRDMEN_AMBUSH",
+      "Value": "Capture and interrogate them"
+    },
+    {
+      "Key": "EVENT_OPTION_2_BIRDMEN_AMBUSH",
+      "Value": "Leave them be for now"
+    },
+    {
+      "Key": "BATTLE_BIRDMEN_AMBUSH",
+      "Value": "Battle at Birdmen Camp"
+    },
+    {
+      "Key": "EVENT_NAME_HEDGEMEN_LAST_HIGH_KING",
+      "Value": "The Last High King"
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_HEDGEMEN_LAST_HIGH_KING",
+      "Value": "After a great and ferocious battle, High King Hyber of the Hedgemen finds himself cornered by some Imperial soldiers.\n\n\"Greedy humans, I know why you came to this land to seek the power of the Scales for your doomed Imperial Dominion. We have kept its knowledge safe here for generations before your kind arrived for good reason. Your Emperor is fool, and it will be your undoing.\"\n\nWith that, he flips over two of your men - cutting them down in the process - before finally being slain."
+    },
+    {
+      "Key": "EVENT_OPTION_1_HEDGEMEN_LAST_HIGH_KING",
+      "Value": "Pitiful words from a pitiful creature."
+    },
+    {
+      "Key": "EVENT_OPTION_2_HEDGEMEN_LAST_HIGH_KING",
+      "Value": "Have his bravery noted down in the Histories."
+    },
+    {
+      "Key": "EVENT_NAME_CORSAIR_ATTACK",
+      "Value": "Corsair Raid"
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_CORSAIR_ATTACK",
+      "Value": "The harbourmaster bursts through the doors of your mansion, in a panic.\n\n \"Governor, the Corsair ships of the infamous Captain Salazar have been sighted sailing towards the harbour.\"\n\n Even the grand navy of the Imperial Dominion could never quite overcome the forces of piracy. With the riches of Irim now available, invetiably their cursed ships have followed."
+    },
+    {
+      "Key": "EVENT_OPTION_1_CORSAIR_ATTACK",
+      "Value": "Don't shoot, take it all!"
+    },
+    {
+      "Key": "EVENT_OPTION_2_CORSAIR_ATTACK",
+      "Value": "Salazar... you'll hang for this."
+    },
+    {
+      "Key": "EVENT_NAME_CORSAIR_ATTACK_LOSE",
+      "Value": "Salazar's Due"
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_CORSAIR_ATTACK_LOSE",
+      "Value": "Amid the panic in the streets, Captain Salazar kicks open the the door of your mansion and sits opposite you brandishing his dagger.\n\n\"Ah by the Emperor, Governor, what a pity all these people had to die for but a poor few tradegoods. Hand them over or I'll gut you here and now, and next time, be more agreeable to our requests, hm?\"\n\nSatisifed you are intimidated, he twirls his dagger awaiting your response."
+    },
+    {
+      "Key": "EVENT_OPTION_1_CORSAIR_ATTACK_LOSE",
+      "Value": "Ah, uh, help yourself Salazar."
+    },
+    {
+      "Key": "BATTLE_CORSAIR_RAID",
+      "Value": "Corsair Raid"
+    },
+    {
+      "Key": "CORSAIR",
+      "Value": "Corsair"
+    },
+    {
+      "Key": "COLONY_DESCRIPTION_GENERAL_THREAT",
+      "Value": "We have been here some time and can expect unwanted attention from the many actors in Irim, we need an army."
+    },
+    {
+      "Key": "EVENT_NAME_WYRDTREE_DRAGON_INFO",
+      "Value": "The Wyrdtrees knowledge."
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_DRAGON_INFO",
+      "Value": "Happy that you accepted the Wyrdtrees deal forest stirs in excitement. Birds begin churriping and it almost seems as if the sun starts shining brighter. \n\n\" You are a wise man governor. Now we will tell you all we know of the Dragons of Irim. The Dragons of this land are slow creatures but entirely unstoppable. Once every 50 years they come out of their mountain hideaways to feast upon the flesh of the rest of Irim.They gorge themselves on every living thing and then hide away in their mountain homes to consume their pickings. \n\n Hunting season is far away so it is unlikely you will find any Dragons roaming around. The only place to find them will be in their mountain hideaways. These Dragons mountain hideaways are marked by a total absence of life in the area. These Dragons however are unkillable by any normal means. We don't know of any way to harm them either. \n\n We have now honoured our part of the deal. We trust you will honour yours Governor \""
+    },
+    {
+      "Key": "EVENT_OPTION_1_DRAGON_INFO",
+      "Value": "Thank you for the information."
+    },
+    {
+      "Key": "EVENT_NAME_FAILED_NEGOTIATION",
+      "Value": "A failed negotiation."
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_FAILED_NEGOTIATION",
+      "Value": "Shortly after sending an imposter to pose as you to meet with the Wyrdtrees terrible news arrives. The negotiations with the Wyrdtrees have gone horribly wrong.As your servant entered the circle of the Wyrdtrees and pretended to be you, they instantly saw through his deception. Angered by the treachery the forest around him began to consume him. He was dragged down and swallowed by the plants around him and merged into the forest.A harrowing sight for the scouts who accompanied him. The Wyrdtrees now refuse to speak with you. We must find another way of obtaining their information on the Dragons."
+    },
+    {
+      "Key": "EVENT_OPTION_1_FAILED_NEGOTIATION",
+      "Value": "Burn that forest to the ground, we will take their knowledge by force."
+    },
+    {
+      "Key": "EVENT_OPTION_2_FAILED_NEGOTIATION",
+      "Value": "Patience is a virtue, an oppertunity will present itself."
+    },
+    {
+      "Key": "EVENT_NAME_A_STRANGE_VISITOR",
+      "Value": "A strange visitor."
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_A_STRANGE_VISITOR",
+      "Value": "As you sit in your chair pondering the information that the mystical Wyrdtrees could have told you a most strange creature suddenly appears in front of you. A wretched and deformed thing made of grarled branches and rotten leaves. Yet when it speaks its voice is as clear as day and as smooth as honey. \n\n\" Greetings almighty Governor. I come to you on this dark eve with a humble proposal. I have heard of your dealings with the Wyrdtrees and their refusal to share their knowledge of the Dragons with you. I too have suffered under the greed of these Tyrants of the Forest. I know a hidden path to the heart of their domain. What is ask is that when the time is right you will take me to the Wyrdwood. There I can consume their knowledge and strength and share them with you. I assure you that there is no other way to seize the knowledge these Wyrdtrees hold.\n\n ...There is one other little thing. To consume their knowledge requires a slight sacrifice. About 5 of your civilians should do. Their deaths would be quick and painless I assure you. All for the great good.\""
+    },
+    {
+      "Key": "EVENT_OPTION_1_A_STRANGE_VISITOR",
+      "Value": "Tell me when you need me and I will help you."
+    },
+    {
+      "Key": "EVENT_OPTION_2_A_STRANGE_VISITOR",
+      "Value": "I don't trust you one bit but its our only option."
+    },
+    {
+      "Key": "EVENT_OPTION_3_A_STRANGE_VISITOR",
+      "Value": "I'm not giving you anything! We will burn a path ourselves."
+    },
+    {
+      "Key": "EVENT_NAME_FOREST_AMBUSH",
+      "Value": "Forest Ambush"
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_FOREST_AMBUSH",
+      "Value": "In the darkest of nights a messenger bursts into your room bringing ill news. Whilst our men were burning the forest as you commanded a group of labourers were ambushed whilst ferrying resources to our soldiers. As they walked through the forest vines began crawling on the ground grabbing at their legs whilst thorny bushes started to grow from the sides. Trees drew near and began to close them in. Our scouts found their bodies subsumed within many of the nearby trees. Their faces screaming in pain."
+    },
+    {
+      "Key": "EVENT_OPTION_1_FOREST_AMBUSH",
+      "Value": "Send our troops to patrol the area."
+    },
+    {
+      "Key": "EVENT_NAME_WYRDWOOD_PAYMENT",
+      "Value": "The matter of payment"
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_WYRDWOOD_PAYMENT",
+      "Value": "A sapling has arrived to remind you of your deal with the Wyrdtrees. Now that you have the tradegoods they asked for they want their payment. In return they will tell you all they know about the Dragons."
+    },
+    {
+      "Key": "EVENT_OPTION_1_WYRDWOOD_PAYMENT",
+      "Value": "Accept their offer."
+    },
+    {
+      "Key": "EVENT_OPTION_2_WYRDWOOD_PAYMENT",
+      "Value": "We need more time."
+    },
+    {
+      "Key": "EVENT_OPTION_3_WYRDWOOD_PAYMENT",
+      "Value": "Abandon the deal, we'll find another way."
+    },
+    {
+      "Key": "EVENT_NAME_SECOND_QUESTION",
+      "Value": "The Second Question"
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_SECOND_QUESTION",
+      "Value": "The trees rumble in approval as the deep voice speaks again \n\n \"A rare feature among your kind, you posses self insight. Now for the second test. \n\n The Wolf comes for a Flock. \n\n To eat Tree, Plant and Rock \n\n But who is the Sheperd in the Dark \n\n To Help those made of Root and Bark \n\n \""
+    },
+    {
+      "Key": "EVENT_OPTION_1_SECOND_QUESTION",
+      "Value": "The shepherd is the Emperor"
+    },
+    {
+      "Key": "EVENT_OPTION_2_SECOND_QUESTION",
+      "Value": "You are the shepherds"
+    },
+    {
+      "Key": "EVENT_OPTION_3_SECOND_QUESTION",
+      "Value": "We must be the shepherd"
+    },
+    {
+      "Key": "EVENT_NAME_WYRDTREE_PROPOSAL",
+      "Value": "The Wyrdtrees Proposal"
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_WYRDTREE_PROPOSAL",
+      "Value": "Once again the forest rumbles approvingly and the deep voice speaks. \n\n \"So you see, you are the Wolf that threatens our Flock and we are the Shepherds that must guard it. You are wise enough to see this and so wise enough to be reasoned with. We tell you what we know of the Dragons you seek. But in return you must never touch the Wyrdwood. To ensure you honour this proposal we will need 80 of your Tradegoods so you will not use them to gather an army against us. If you do not have these goods currently we will send a messenger to you when you do."
+    },
+    {
+      "Key": "EVENT_OPTION_1_WYRDTREE_PROPOSAL",
+      "Value": "I accept"
+    },
+    {
+      "Key": "EVENT_OPTION_2_WYTRDTREE_PROPOSAL",
+      "Value": "I accept but we do not have trade goods yet"
+    },
+    {
+      "Key": "EVENT_OPTION_3_WYRDTREE_PROPOSAL",
+      "Value": "I refuse, this forest belongs to Emperor Zygerios!"
+    },
+    {
+      "Key": "EVENT_NAME_UNMISSABLE_OPPERTUNITY",
+      "Value": "An Unmissable Opportunity"
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_UNMISSABLE_OPPERTUNITY",
+      "Value": "The wretched Forest Demon that visited us before has come back bearing good tidings. He has managed to create a path through the forest of the Wyrdtrees and all he needs are our soldiers to back him up. He tells you that you need a force of approximately 250 power to hold off the Wyrdtrees long enough for him to consume them. If we aren't ready he can find another oppertunity but it may take some time."
+    },
+    {
+      "Key": "EVENT_OPTION_1_UNMISSABLE_OPPERTUNITY",
+      "Value": "Let's go at once, to knowledge!"
+    },
+    {
+      "Key": "EVENT_OPTION_2_UNMISSABLE_OPPERTUNITY",
+      "Value": "We aren't ready yet."
+    },
+    {
+      "Key": "EVENT_NAME_WOODS_OF_WISDOM",
+      "Value": "Woods Of Wisdom"
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_WOODS_OF_WISDOM",
+      "Value": "Your scouts have finally returned from a long expedition deep into the lands of Irim and brought remarkable news. The maps we obtained from the Birdmen led our scouts into a forest the likes of which they had never seen before. It was filled with wondrous plants and animals, insects great and small. Creatures with a thousand legs and seethrough bellies. \n\n But the most amazing discovery of all they made in the very heart of the forest. A circle of Wyrdtrees, trees that could talk, uncountably old and utterly majestic. When our scouts approached them the Wyrdtrees spoke to them and as they did the entire forest resonated their voice. They knew of our mission to find the Dragons and demanded to speak with you governor. Afterwards they fell silent and ignored any attempts by our scouts to gather more information. \n\n These Wyrdtrees clearly possess some form of mystical knowledge and power. If we could convince them to tell it to us it would be very valuable indeed. But to anger them could call the wrath of the entire forest on us. We should tread carefully "
+    },
+    {
+      "Key": "EVENT_OPTION_1_WOODS_OF_WISDOM",
+      "Value": "I shall go and meet these trees"
+    },
+    {
+      "Key": "EVENT_OPTION_2_WOODS_OF_WISDOM",
+      "Value": "Send one of your lackeys to pose as you"
+    },
+    {
+      "Key": "EVENT_NAME_WYRDTREE_MEETING_FAILED",
+      "Value": "Wrath of the Wyrdtrees"
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_WYRDTREE_MEETING_FAILED",
+      "Value": "As you speak your answer a deep growl starts to grow in the forest. It rises to a crescendo and pierces your ears. The Wyrdtrees are clearly displeased at your answer.\" You are not worthy of our knowledge, you do not see yourself even when a mirror is held to your face. Begone from these lands and do not return. For you will face our wrath \" As he speaks the forest starts to grow dark and twisted. Vines curl on the ground as if ready to strike and trees filled with low hanging food now raise their branches to block out the light.You and your party run back as fast as you can before the forest consumes you all, and many times you feel vines and roots brushing past you trying to pull you down. Back at the settlement you consider your options."
+    },
+    {
+      "Key": "EVENT_OPTION_1_WYRDTREE_MEETING_FAILED",
+      "Value": "Burn that forest to the ground!"
+    },
+    {
+      "Key": "EVENT_OPTION_2_WYRDTREE MEETING_FAILED",
+      "Value": "Leave them be, we'll get their information somehow."
+    },
+    {
+      "Key": "EVENT_NAME_WYRDTREE_ASSAULT_SUCCESS",
+      "Value": "Wyrdtree Assault Success"
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_WYRDTREE_ASSAULT_SUCCESS",
+      "Value": "As our troops enter the heart of the Wyrdtrees domain, they start burning everything in sight. The flames grow hungry and high and the screams of the forest can be heard for miles around. As the screams reach a crescendo you can hear the Wyrdtrees begging to you. They tell you all they know about the Dragons in an attempt to save their forest. \n\n \" You can find the Dragons high up in their mountain caves! You can know where these are from the absence of all life nearby. However they are invulnerable to any weapons we know of \" \n\n. If you leave they will even let you use the outskirts of the Wyrdwood for resources."
+    },
+    {
+      "Key": "EVENT_OPTION_1_WYRDTREE_ASSAULT_SUCCESS",
+      "Value": "We will leave in exchange for the outskirts."
+    },
+    {
+      "Key": "EVENT_OPTION_2_WYRDTREE_ASSAULT_SUCCESS",
+      "Value": "Thanks for the information, now burn in hell."
+    },
+    {
+      "Key": "EVENT_NAME_CONSUMING_THE_WYRDTREES",
+      "Value": "Consuming the Wyrdtrees"
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_CONSUMING_THE_WYRDTREES",
+      "Value": "As your men hold off the Wyrdtree assault, the Tree Demon manages to complete its profane ritual. Suddenly the leaves around you begin to rot and the scent of death begins to fill the air. The enemies your men were facing fall limp and wither. As the stench of death rises so too does the once small Tree Demon, that you helped, begin to grow becoming ever more grotesque. Then he began to speak, no longer with the smooth voice of before but with a rasping guttural growl. \n\n\"Thank you Governor, now it is my turn to honour our agreement. I shall tell you all that the Wydtrees knew of the Dragons. The dragons have their lairs high up in the mountain peaks of Irim where they are well hidden. However a Dragons mountain is marked by an absence of life nearby as they flee from the Dragons hunger. To kill the Dragons however is another matter entirely. I know of no weapon that can scratch its armour. \"\n\n\" Now our deal is done and my debt to you repaid. But there is another matter to settle. I. AM. STARVING. I must say governor you and your men look delicious. \""
+    },
+    {
+      "Key": "EVENT_OPTION_1_CONSUMING_THE_WYRDTREES",
+      "Value": "Here take our servants!"
+    },
+    {
+      "Key": "EVENT_OPTION_2_CONSUMING_THE_WYRDTREES",
+      "Value": "Kill this abomination!"
+    },
+    {
+      "Key": "EVENT_NAME_WYRDWOOD_ASSAULT",
+      "Value": "Wyrdwood Assault"
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_WYRDWOOD_ASSAULT",
+      "Value": "Our generals report that our troops have managed to burn a way to the heart of the Wyrdtree domain. If we want to finish them and claim their knowledge we should strike now. If we don't attack now the forest will regrow and we will have to wait for another time. Your generals tell you that a force of around 300 strength should be enough to destroy the Wyrdtrees domain."
+    },
+    {
+      "Key": "EVENT_OPTION_1_WYRDTREE_ASSAULT",
+      "Value": "Rally the troops! We attack!"
+    },
+    {
+      "Key": "EVENT_OPTION_2_WYRDTREE_ASSAULT",
+      "Value": "We aren't ready yet. It will have to wait."
+    },
+    {
+      "Key": "EVENT_NAME_WYRDTREE_MEETING",
+      "Value": "Wyrdtree meeting"
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_WYRDTREE_MEETING",
+      "Value": "As you wander through the forest towards the Wyrdtrees you see that tales your scouts told you about the wonders of the forest were no exagerations. The flora and fauna are unlike anything you have ever seen before. \n\n When you finally arrive at the clearing of the Wyrdtrees you are greeted by a sense of ancient majesty. As you stand before the great trees yourself the entire forest begins to rumble and a single deep voice speaks out from the mouths of the Wyrdtrees. It asks but one question. \n\n\" Hedgemen, Birdmen, Trees and Stone \n\n It feasts on all deep to the Bone \n\n Where dragons fly and men go to die.  That is what it seeks \n\nOf what evil do I speak \""
+    },
+    {
+      "Key": "EVENT_OPTION_1_WYRDTREE_MEETING",
+      "Value": "The answer is Time!"
+    },
+    {
+      "Key": "EVENT_OPTION_2_WYRDTREE_MEETING",
+      "Value": "He speaks of us."
+    },
+    {
+      "Key": "EVENT_OPTION_3_WYRDTREE_MEETING",
+      "Value": "He's warning us of the destruction from the dragons."
+    },
+    {
+      "Key": "GAME_LOSING_BATTLE",
+      "Value": "If you lose, the colony will be destroyed."
+    },
+    {
+      "Key": "EVENT_NAME_HIGH_KING_HYBER",
+      "Value": "The Envoys Arrive"
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_HIGH_KING_HYBER",
+      "Value": "Your envoys arrive at the court of High King Hyber. It is clear that while they are a polity ruled by a monarch, much like our Emperor, the Hedgemen clearly lack the technological sophistician of the Imperial Dominion.\n\n \"Human envoys, welcome. We have heard from travelling Birdmen of your quest for the power of the Scales. As you have shown us your peaceful intentions, know this. The great evils, such as the Dragons, have not troubled these lands for many successions of the High Kingdom. Yet your mere arrival has caused the forces of evil to sirr from the Malediction Dunes to the Wicked Wallow. Perhaps these foul stirrings are the work of the Dragons themselves. Our Hedgescholars can show you hoe the Dragons were defeated in the old tomes, but you must help us stem the rising tide of evil first. What say you?\""
+    },
+    {
+      "Key": "EVENT_NAME_HIGH_KING_HYBER",
+      "Value": "The Envoys Arrive"
+    },
+    {
+      "Key": "EVENT_OPTION_1_HIGH_KING_HYBER",
+      "Value": "An alliance... We will destroy you, the dragons and claim this land for the Emperor"
+    },
+    {
+      "Key": "EVENT_OPTION_2_HIGH_KING_HYBER",
+      "Value": "An alliance... may the Inquisition forigve us, but we agree."
+    },
+    {
+      "Key": "EVENT_NAME_WICKED_WILLOW_AWAKENS",
+      "Value": "Foul Tidings from the West"
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_WICKED_WILLOW_AWAKENS",
+      "Value": "The words of High King Hyber are proving true. Dark abberations sighted during the night, rotten and skeletal corpses sighted venturing beyond the confines of the swamp and terrorsing the local human freeholds.\n\n Some sightings are even reported near the colony, we should prepare for the worst. May the will of Zygerios strengthen us and the light of the Inquisition guide us."
+    },
+    {
+      "Key": "EVENT_OPTION_1_WICKED_WILLOW_AWAKENS",
+      "Value": "We should prepare for the worst."
+    },
+    {
+      "Key": "EVENT_NAME_SKELETON_ATTACK",
+      "Value": "Skeleton Attack"
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_SKELETON_ATTACK",
+      "Value": "The watchman comes in with a terrified look on his face.\n\n \"Governor... it's not possible, the dead they're - they're alive. A huge army of Skeletons is marching straight towards the colony!\"\n\n The Wicked Wallow has unleashed its foul creatures upon us. May the Emperor protect us."
+    },
+    {
+      "Key": "EVENT_OPTION_1_SKELETON_ATTACK",
+      "Value": "Let them taste the Grand Battery!"
+    },
+    {
+      "Key": "BATTLE_SKELETON_ASSAULT",
+      "Value": "Skeleton Siege"
+    },
+    {
+      "Key": "SKELETONS",
+      "Value": "Foul Skeletons"
+    },
+    {
+      "Key": "TREEDEMON",
+      "Value": "Forest Demon"
+    },
+    {
+      "Key": "TREEMAN",
+      "Value": "Tree Men"
+    },
+    {
+      "Key": "COLONY_DESCRIPTION_WILLOW_RISK",
+      "Value": "The foul monsters of the Wicked Wallow are stirring, we can expect regular attacks from them."
+    },
+    {
+      "Key": "EVENT_NAME_PETITIONERS_ANGRY",
+      "Value": "The Petition of the Gentlemen"
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_PETITIONERS_ANGRY",
+      "Value": "A group of angry looking gentlemen from the colony approach your mansion and the tallest one steps forward waving a parchment in his hand.\n\n\"Governor. Here you will find a letter signed by the upstanding gentlemen of the colony expressing that we do not acquiesce to your style of governance, and the mood of the citizenry is souring.\n\nHear this, a man who loses the colonies of the Emperor loses his friendship.\"\n\nWe must improve the mood or could face revolt."
+    },
+    {
+      "Key": "EVENT_OPTION_1_PETITIONERS_ANGRY",
+      "Value": "We must improve the mood or face rebellion."
+    },
+    {
+      "Key": "EVENT_OPTION_2_PETITIONERS_ANGRY",
+      "Value": "Rakes, scoundrels! I have friends at court."
+    },
+    {
+      "Key": "COLONY_DESCRIPTION_WYRDTREES_DONE",
+      "Value": "Through our dealings with the Wyrdtrees we now know how to find the Dragons, but we still don't know how to defeat them"
+    },
+    {
+      "Key": "COLONY_DESCRIPTION_HEDGEMEN_DONE",
+      "Value": "By dealing with the Hedgemen we have managed to find out how to slay the Dragons, but we still don't know how to find them"
+    },
+    {
+      "Key": "COLONY_DESCRIPTION_BIRDS_DONE",
+      "Value": "We have gathered local maps and information from the Birdmen traders. This will surely help us on our quest to find the Dragons, but there is still much to be done."
+    },
+    {
+      "Key": "BATTLE_WYRDTREE_ASSAULT",
+      "Value": "Wyrdwood Assault"
+    },
+    {
+      "Key": "COLONY_DESCRIPTION_DRAGON_FINDABLE",
+      "Value": "Through our dealings with the Hedgemen and the Wyrdtrees we now know how to find and defeat the Dragons. All we need to do now is build our army and bide our time. The time of victory is at hand!"
+    },
+    {
+      "Key": "EVENT_NAME_WICKED_WILLOW_SIEGE",
+      "Value": "The War Council"
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_WICKED_WILLOW_SIEGE",
+      "Value": "The war council settles down as you enter.\n\n\"Governor, we believe we have found the perfect opportunity to attack the Wicked Wallow. We estimate a force some 400 strong will be required to destroy the marsh\"\n\nWe must decide whether to launch an attack and put a stop to this menace."
+    },
+    {
+      "Key": "EVENT_OPTION_1_WICKED_WILLOW_SIEGE",
+      "Value": "We will destroy the foul marsh."
+    },
+    {
+      "Key": "EVENT_OPTION_2_WICKED_WILLOW_SIEGE",
+      "Value": "Not this time."
+    },
+    {
+      "Key": "BATTLE_WICKED_WALLOW",
+      "Value": "Cleansing of the Marshlands"
+    },
+    {
+      "Key": "EVENT_NAME_WICKED_WALLOW_DEAD",
+      "Value": "Victory in the Marshes"
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_WICKED_WALLOW_DEAD",
+      "Value": "Admist the great battle against the foul spawn of the Wicked Wallow, you see High King Hyber flipping and spinning between the skeletons like they are nothing. After the last few skeletons are slain, the mighty High King of the Hedgemen stops at your feet.\n\n\"Governor. You have proven yourself worthy by helping us destroy this unnatural place and those... things... that would inhabit it. Now we will uphold our end of the bargain.\n\n Though the Dragons are great and mighty, their Scales have a weakness. The Hedgescholars that in ages past, ancient empires used a great many explosive arrows aimed at the neck ... perhaps the Imperial Grand Batteries you have demonstrated here today could fill this roll.\""
+    },
+    {
+      "Key": "EVENT_OPTION_1_WICKED_WALLOW_DEAD",
+      "Value": "Now there's a King who fights his own battles."
+    },
+    {
+      "Key": "EVENT_NAME_HEDGEMAN_ROMANCE",
+      "Value": "An Strange Affection"
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_HEDGEMAN_ROMANCE",
+      "Value": "Rumour have begun to spread, that one of our lumberjacks Jeramiah has grown attached to one of the recently met Hedgemen. Far too attached seems to be the rumour doing the rounds in the colony.\n\nWhat do we do about this?"
+    },
+    {
+      "Key": "EVENT_OPTION_1_HEDGEMAN_ROMANCE",
+      "Value": "Inquisitor, burn them all."
+    },
+    {
+      "Key": "EVENT_OPTION_2_HEDGEMAN_ROMANCE",
+      "Value": "Uh... right."
+    },
+    {
+      "Key": "EVENT_NAME_DRAGON_DEFEAT",
+      "Value": "A Flaming Doom"
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_DRAGON_DEFEAT",
+      "Value": "It was a long and bitter march up to the Dragons lair. The land around it was desolate and barren. Many men grew fearful of what creature could unleash such terror.  When we arrived at the gate of its lair morale was low. You the Governor held a rousing speech. To Victory men! For Emperor Zygerios! But it was not enough. \n\n As your men charged forward and the Grand Batteries opened fire, the Dragon woke from its slumber. From the skies it rained down fire and death. As the centre of your line swayed to its onslaught and the foul Dragon landed, you and your escort charged forward straight for its head. It was too late. The Dragon turned to face you and with one swift breath melted you and your entourage. The line broke shortly after. \n\n Enraged by the attack on its lair it flew to the home of these invaders. Straight to your colony. Fire swept throughout the many houses and the few ships that could tried to flee the harbour. A very few did. \n\n So came the end of your expedition and with it the last hope of the Imperial Dominion. You failed."
+    },
+    {
+      "Key": "EVENT_OPTION_1_DRAGON_DEFEAT",
+      "Value": "A tragic end to a great story"
+    },
+    {
+      "Key": "EVENT_NAME_DRAGON_VICTORY",
+      "Value": "Dragon Defeated"
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_DRAGON_VICTORY",
+      "Value": "From your commanding position on the battlefield the very ground shook beneath you as the roar of the Imperial Grand Battery pulverised the enormous dragon. Eventually, one shot found its mark on the Dragon's neck. Just as the Hedgemen promised, the mighty beast slumbered to the ground defeated. \n\n \"For Emperor Zygerios, the Imperial Dominion. Victory!\"\n\n You have done it. With the dragon defeated, you can claim the power of its Scales and use it against the enemies of the Imperial Dominion. May we reign eternal."
+    },
+    {
+      "Key": "EVENT_OPTION_1_DRAGON_VICTORY",
+      "Value": "For you, Emperor Zygerios."
+    },
+    {
+      "Key": "EVENT_OPTION_2_DRAGON_VICTORY",
+      "Value": "A majestic creature... defeated by the march of technology."
+    },
+    {
+      "Key": "EVENT_OPTION_3_DRAGON_VICTORY",
+      "Value": "Our quest complete, our role is not. (Continue Governing the Colony)"
+    },
+    {
+      "Key": "GAME_WON",
+      "Value": "The Dragons are defeated and the power of the Scales are yours. You have won the game."
+    },
+    {
+      "Key": "DRAGON",
+      "Value": "The Scaled Terror"
+    },
+    {
+      "Key": "EVENT_NAME_DRAGON_BATTLE",
+      "Value": "March on the Scaled Terror"
+    },
+    {
+      "Key": "EVENT_DESCRIPTION_DRAGON_BATTLE",
+      "Value": "The time has finally come upon us. With the knowledge of the Hedgemen, Birdmen and Wyrdtrees we are finally ready to complete our mission. Our scouts have spotted the lair of a foul Dragon. A high peak far north of here. If we succeed in killing this beast, its Scales may save the Imperial Dominion from its impending doom. \n\n But if we fail the beast will undoubtedly go to our colony and burn it to the ground. We should not take on this task lightly and our generals advise that we bring at least 500 strength worth of soldiers to the field."
+    },
+    {
+      "Key": "EVENT_OPTION_1_DRAGON_BATTLE",
+      "Value": "We will end this, once and for all."
+    },
+    {
+      "Key": "EVENT_OPTION_2_DRAGON_BATTLE",
+      "Value": "We aren't ready yet."
+    },
+    {
+      "Key": "BATTLE_DRAGON",
+      "Value": "The Final Battle"
+    }
+  ]
+}
